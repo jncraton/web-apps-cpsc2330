@@ -1,3 +1,5 @@
+SHELL := bash -O nullglob
+
 all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html
 
 .PHONY: clean lectures
@@ -21,7 +23,7 @@ syllabus.docx: syllabus.md
 	pandoc -V lang=en --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
 
 syllabus.pdf: syllabus.md
-	pandoc -V lang=en --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight -V 'hyphens=none' --mathjax --variable titlepage="false" -s -o $@ $< 
+	pandoc -V lang=en --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight -V 'hyphens=none' --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js --variable titlepage="false" -s -o $@ $<
 	gs					\
 		-q -dNOPAUSE -dBATCH -dSAFER		\
 		-sDEVICE=pdfwrite			\
@@ -46,9 +48,12 @@ env.html: env.md
 	pandoc -V lang=en --metadata pagetitle=Environment --standalone --css=style.css -o $@ $<
 
 lectures:
-	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
+	find lectures -name "*.md" -exec pandoc --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js -t revealjs --standalone --template=revealjs-template.html -V revealjs-url=reveal.js -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
 	for file in lectures/*.md.html; do \
 	    mv -- "$$file" "$$(echo $$file | sed 's/.md//')"; \
+	done
+	for file in lectures/media/*.puml; do \
+	    plantuml -Sdpi=300 -output .. "$$file"; \
 	done
 
 spellcheck:
@@ -62,20 +67,20 @@ lectures/all.md:
 	cd lectures && sed -e '$$G' -s `ls -v *.md` > all.md
 
 lectures/all.html: lectures/all.md
-	pandoc -V lang=en --metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
+	pandoc -V lang=en --metadata pagetitle="Lecture Notes" --standalone --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js --css=../style.css -o $@ $<
 
 lectures/all-slides.html: lectures/all.md
-	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o $@ $<
+	pandoc --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js -t revealjs --standalone --template=revealjs-template.html -V revealjs-url=reveal.js -V theme:white -V history=true --metadata pagetitle=Slides -o $@ $<
 
 lectures/index.html: lectures lectures/all.html lectures/all-slides.html lectures/reveal.js
 	python3 gen_lecture_index.py
 	pandoc lectures/index.md -o $@
 
 examples/index.html:
-	cd examples && tree -H '.' -L 1 --noreport --charset utf-8 -P "*" > index.html
+	cd examples && tree -H '.' -L 2 --noreport --charset utf-8 -P "*" | sponge index.html
 
 lectures/reveal.js:
-	cd lectures && git clone --depth=1 --branch 3.9.2 https://github.com/hakimel/reveal.js
+	cd lectures && git clone --depth=1 --branch 5.2.0 https://github.com/hakimel/reveal.js
 
 update:
 	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
@@ -88,6 +93,7 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/tail.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/env.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
@@ -108,6 +114,7 @@ clean:
 	rm -rf pandoc*
 	rm -f index.html index.md syllabus.md syllabus.docx syllabus.html syllabus.pdf env.html *.pdf
 	rm -rf lectures/**.html lectures/all.md lectures/index.md
+	rm -rf lectures/*.png
 	rm -rf examples/index.html
 	find lectures -name "*.html" -exec rm -f {} \;
 	rm -rf figures
