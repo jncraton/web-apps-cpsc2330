@@ -39,7 +39,7 @@ Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.c
 Course Catalog Description
 --------------------------
 
-An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis is placed on effective testing and debugging, and an introduction to the command line environment is presented.
+Introduces students to a broad range of web application software development tools and technologies. Includes coverage of HTML 5, CSS, and JavaScript. Topics include client and server side web page development, the creation of asynchronous web applications, database access and MVC software design.
 
 Required Resources
 ------------------
