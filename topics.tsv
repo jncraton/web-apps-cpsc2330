@@ -24,3 +24,33 @@ GIL	Table Accessibility	https://developer.mozilla.org/en-US/docs/Learn_web_devel
 Lab	Table Accessibility
 GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
 Lab	Forms
+GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+Lab	Forms
+Exam Review	HTML
+Midterm Exam	HTML
+GIL	CSS Intro	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+Lab	CSS Intro
+GIL	Basic Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+Lab	Basic Selectors
+GIL	Advanced Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Attribute_selectors, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
+Lab	Advanced Selectors
+GIL	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
+Lab	Combinators
+GIL	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
+Lab	Box Model
+GIL	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
+Lab Cascading
+GIL	Values and Units	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
+Lab	Values and Units
+GIL	Sizing	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing
+Lab	Sizing
+GIL	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
+Lab	Backgrounds and Borders
+GIL	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
+Lab	Overflow
+GIL	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
+Lab	Media Styles
+GIL	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
+Lab	Table Styles
+GIL	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling
+Lab	Text Styles
