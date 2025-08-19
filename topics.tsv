@@ -1,0 +1,26 @@
+type	name	reading	content
+Lecture	Intro	Syllabus
+GIL	HTML Syntax	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+Lab	HTML Syntax	
+GIL	Headings and Paragraphs	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
+Lab	Headings and Paragraphs
+GIL	Importance	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance
+Lab	Importance
+GIL	Lists	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
+Lab	Lists
+GIL	Structuring Documents	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
+Lab	Structuring Documents
+GIL	Advanced Text	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features
+Lab	Advanced Text
+GIL	Links	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links
+Lab	Links
+GIL	Images	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images
+Lab	Images
+GIL	Multimedia	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio
+Lab	Multimedia
+GIL	Table Basics	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics
+Lab	Table Basics
+GIL	Table Accessibility	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+Lab	Table Accessibility
+GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+Lab	Forms
