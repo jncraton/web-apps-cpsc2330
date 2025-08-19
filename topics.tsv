@@ -27,4 +27,28 @@ GIL	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_d
 GIL	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
 GIL	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
 GIL	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-GIL	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling
+GIL	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
+GIL	Lists and Link Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links
+GIL	Web Fonts	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts
+GIL	Layout	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction
+GIL	Positioning	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning
+GIL	Flexbox	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
+GIL	Grid	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
+GIL	Responsive Design	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+GIL	Media Queries	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
+GIL	JavaScript	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+GIL	Variables	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
+GIL	Math	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math
+GIL	Strings	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings
+GIL	Arrays	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+GIL	Conditionals	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+GIL	Loops	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
+GIL	Functions	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
+GIL	Events	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
+GIL	Objects	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
+GIL	DOM	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
+GIL	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests
+GIL	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
+GIL	Flask	https://flask.palletsprojects.com/en/stable/quickstart/
+GIL	Sqlite	https://docs.python.org/3/library/sqlite3.html
+GIL	htmx and MVC	https://htmx.org/docs/
