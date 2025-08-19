@@ -1,56 +1,30 @@
 type	name	reading	content
 Lecture	Intro	Syllabus
 GIL	HTML Syntax	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-Lab	HTML Syntax	
 GIL	Headings and Paragraphs	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
-Lab	Headings and Paragraphs
 GIL	Importance	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance
-Lab	Importance
 GIL	Lists	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
-Lab	Lists
 GIL	Structuring Documents	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
-Lab	Structuring Documents
 GIL	Advanced Text	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features
-Lab	Advanced Text
 GIL	Links	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links
-Lab	Links
 GIL	Images	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images
-Lab	Images
 GIL	Multimedia	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio
-Lab	Multimedia
 GIL	Table Basics	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics
-Lab	Table Basics
 GIL	Table Accessibility	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-Lab	Table Accessibility
 GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-Lab	Forms
 GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-Lab	Forms
 Exam Review	HTML
 Midterm Exam	HTML
 GIL	CSS Intro	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-Lab	CSS Intro
 GIL	Basic Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-Lab	Basic Selectors
 GIL	Advanced Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Attribute_selectors, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
-Lab	Advanced Selectors
 GIL	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
-Lab	Combinators
 GIL	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
-Lab	Box Model
 GIL	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
-Lab Cascading
 GIL	Values and Units	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
-Lab	Values and Units
 GIL	Sizing	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing
-Lab	Sizing
 GIL	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-Lab	Backgrounds and Borders
 GIL	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
-Lab	Overflow
 GIL	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-Lab	Media Styles
 GIL	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-Lab	Table Styles
 GIL	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling
-Lab	Text Styles
