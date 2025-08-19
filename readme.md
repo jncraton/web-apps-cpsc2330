@@ -49,7 +49,10 @@ Course Objectives
 
 Upon completion of this course, students will be able to:
 
--
+- Create accessible semantic HTML pages
+- Apply styles using CSS
+- Create interactive applications using JavaScript
+- Structure complex applications including databases and frameworks
 
 Course Overview
 ---------------
