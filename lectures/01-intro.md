@@ -24,10 +24,10 @@ Introductions
 Quizzes
 -------
 
-- Given regularly at beginning and end of class
-- 2 minute time limit
-- Should be relatively easy for you
-- Allow me to confirm that everyone is keeping up with course material
+- Offered on most instructional days
+- Open-ended reflection questions
+- Graded for completion only
+- Allow you to confirm that you are keeping up with course material
 
 Syllabus
 --------
