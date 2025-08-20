@@ -9,17 +9,22 @@ CPSC 2330 Web Application Development
 Course Catalog Description
 --------------------------
 
-An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis is placed on effective testing and debugging, and an introduction to the command line environment is presented.
+Introduces students to a broad range of web application software development tools and technologies. Includes coverage of HTML 5, CSS, and JavaScript. Topics include client and server side web page development, the creation of asynchronous web applications, database access and MVC software design.
 
 Required Resources
 ------------------
+
+- None
 
 Course Objectives
 -----------------
 
 Upon completion of this course, students will be able to:
 
--
+- Create accessible semantic HTML pages
+- Apply styles using CSS
+- Create interactive applications using JavaScript
+- Structure complex applications including databases and frameworks
 
 Course Overview
 ---------------

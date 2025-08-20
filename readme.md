@@ -44,6 +44,8 @@ Introduces students to a broad range of web application software development too
 Required Resources
 ------------------
 
+- None
+
 Course Objectives
 -----------------
 
