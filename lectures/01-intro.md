@@ -38,7 +38,7 @@ Syllabus
 
 - The World Wide Web is an information system
 - It enables document and resource sharing
-- The system is user-friendly and operates on the Internet
+- The system operates on the Internet
 
 ## Web vs. Internet
 
@@ -143,7 +143,3 @@ Should web access be considered a basic human right in the modern world? Why or 
 
 - The Web's openness has fostered innovation
 - It has prevented a single company from controlling it
-
-## Exercise
-
-Write down three ideas for a small web application that would use only public, freely available data.
