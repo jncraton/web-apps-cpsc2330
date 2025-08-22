@@ -67,11 +67,15 @@ Students will complete regular labs using various technologies. Labs that includ
 
 ### Quizzes and Homework
 
-Regular quizzes will be given covering the lecture material. Students will have two attempts on each quiz, one at the start of class and one at the end. Only the highest score will be kept. The lowest score from the semester will not count toward the final grade. Students will also complete homework assignments covering various topics from the course text.
+Regular quizzes will be given. The lowest score from the semester will not count toward the final grade. Students may also complete homework assignments covering various topics from the course text.
+
+### Projects
+
+Significant web application software projects will be created and presented.
 
 ### Exams
 
-A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
+A midterm and final exam will be taken in this course. All exams are cumulative with a focus on more recent material.
 
 Grading Scale
 -------------
