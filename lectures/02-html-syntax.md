@@ -1,3 +1,64 @@
+## Web's Purpose
+
+- The Web was designed to share scientific information
+- It was intended to be a common space
+- Its purpose has since evolved
+
+## Web's Core Function
+
+- Web browsers render web pages
+- Web servers store and deliver content
+- The two work together to serve users
+
+## Exercise
+
+Draw a simple diagram showing how a web browser and a web server might interact to display a web page.
+
+## The First Website
+
+- The first website was at CERN
+- It explained the Web and its purpose
+- The original URL was [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
+
+## Web Evolution
+
+- The Web has become the dominant platform
+- It is used for education and commerce
+- It is a platform for entertainment and government
+
+-----
+
+Should web access be considered a basic human right in the modern world? Why or why not?
+
+## HTTP
+
+- HTTP is a stateless protocol
+- Each request is independent
+- Sessions are maintained using cookies
+
+## URL Structure
+
+- A URL includes the protocol (e.g., http)
+- It includes the domain name
+- It also includes the path to the resource
+
+## Key Page Technologies
+
+- HTTP for content
+- CSS for styling
+- JavaScript for interactivity
+
+## Importance of Standards
+
+- HTML and HTTP are open standards
+- This ensures interoperability
+- It allows different developers to build for the Web
+
+## The Open Web
+
+- The Web's openness has fostered innovation
+- It has prevented a single company from controlling it
+
 # Structuring Web Content
 
 -----
