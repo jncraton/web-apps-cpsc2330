@@ -4,18 +4,18 @@
 
 ## What is HTML?
 
-  - A markup language
-  - Not a programming language
+- A markup language
+- Not a programming language
 
 ## Elements and Tags
 
-  - Everything in HTML is an element
-  - Elements are represented by tags
+- Elements are represented by tags
+- An element is everything from the start tag to the end tag
 
 ## Opening and Closing Tags
 
-  - A tag pair consists of `<tag>` and `</tag>`
-  - The content goes between the tags
+- A tag pair consists of `<tag>` and `</tag>`
+- The content goes between the tags
 
 ## Example Paragraph
 
@@ -27,9 +27,9 @@
 
 ## Anatomy of an Element
 
-  - Opening tag
-  - Content
-  - Closing tag
+- Opening tag
+- Content
+- Closing tag
 
 ## Exercise
 
@@ -43,8 +43,8 @@ Identify the opening tag, closing tag, and content in the following example:
 
 ## Nesting Elements
 
-  - You can put elements inside other elements
-  - This creates the structure of a page
+- You can put elements inside other elements
+- This creates the structure of a page
 
 ## Example Nesting
 
@@ -56,13 +56,13 @@ Identify the opening tag, closing tag, and content in the following example:
 
 ## Proper Nesting
 
-  - Nested elements must be closed in the correct order
-  - The last opened must be the first closed
+- Nested elements must be closed in the correct order
+- The last opened must be the first closed
 
 ## Improper Nesting
 
-  - Overlapping tags can cause errors
-  - Tags must be fully contained
+- Overlapping tags can cause errors
+- Tags must be fully contained
 
 -----
 
@@ -70,13 +70,13 @@ How would you describe the difference between proper and improper nesting?
 
 ## What are Attributes?
 
-  - Extra information for an element
-  - They do not appear in the content
+- Extra information for an element
+- They do not appear in the content
 
 ## Anatomy of an Attribute
 
-  - An attribute has a name and a value
-  - The value is in quotes
+- An attribute has a name and a value
+- The value is in quotes
 
 ## Example Attribute
 
@@ -96,14 +96,14 @@ Add an attribute to the `<img>` tag to make it display the image "sunset.jpg".
 
 ## Void Elements
 
-  - A few elements have no content
-  - They don't need a closing tag
+- A few elements have no content
+- They don't need a closing tag
 
 ## Void Element Examples
 
-  - `<img>` for images
-  - `<input>` for forms
-  - `<br>` for line breaks
+- `<img>` for images
+- `<input>` for forms
+- `<br>` for line breaks
 
 -----
 
@@ -111,13 +111,13 @@ How does using attributes make HTML elements more powerful and flexible?
 
 ## Case Sensitivity
 
-  - Tags are not case-sensitive
-  - But lowercase is a best practice
+- Tags are not case-sensitive
+- But lowercase is a best practice
 
 ## Best Practices
 
-  - Always use lowercase for tags and attributes
-  - Always use quotes around attribute values
+- Always use lowercase for tags and attributes
+- Always use quotes around attribute values
 
 ## Final Exercise
 
