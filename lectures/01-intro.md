@@ -82,3 +82,7 @@ What do you think was the biggest challenge in making the Web a reality for a gl
 -----
 
 How would the Web be different today if CERN had charged for its use?
+
+## Exercise
+
+Draw a simple diagram showing how a web browser and a web server might interact to display a web page.
