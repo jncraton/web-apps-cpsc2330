@@ -41,10 +41,6 @@ Identify the opening tag, closing tag, and content in the following example:
 </p>
 ```
 
------
-
-What's the purpose of HTML? What is a markup language?
-
 ## Nesting Elements
 
   - You can put elements inside other elements
@@ -125,7 +121,7 @@ How does using attributes make HTML elements more powerful and flexible?
 
 ## Final Exercise
 
-Look at the following HTML. Identify the element, attribute, and content, then explain why the nesting is incorrect.
+Look at the following HTML. Identify the elements and content, then explain why the nesting is incorrect.
 
 ```html
 <p>
