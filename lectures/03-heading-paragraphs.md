@@ -17,13 +17,13 @@
 
 - Provides a title for a page
 - Commonly shown in browser tab
-- Provide within the `<head>` element
+- Lives within the `<head>` element
 
 ## head
 
 - Includes global page data
 - May include `<meta>` elements holding page metadata
-- Often include style information
+- Often includes style information
 - Not rendered by the user agent
 
 ## charset
@@ -35,6 +35,13 @@
 ## body
 
 - Hold visible content elements
+
+## Optional
+
+- `<html>`, `<head>`, and `<body>` are optional
+- They will be inferred if omitted
+- Documents may be clearer if included
+- Google style guide [suggests considering omission](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags)
 
 ## Content Structure
 
