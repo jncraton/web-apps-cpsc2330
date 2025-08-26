@@ -9,7 +9,7 @@
 
 ## HTML Version
 
-- Necessary so browser render the approprate version of HTML (currently 5)
+- Necessary so browser render the appropriate version of HTML (currently 5)
 - Avoids rendering in quirks mode
 - Specified using `<!doctype html>` as the first characters
 
