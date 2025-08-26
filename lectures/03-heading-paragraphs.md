@@ -1,12 +1,42 @@
-# HTML Content Structure
+# HTML Structure
 
-## What is it?
+## Complete HTML Documents
 
-- Using HTML elements like headings and paragraphs
-- Organize content logically
-- Make information easy to read and understand
+- Include HTML version
+- Include a title
+- Should specify human language
+- Should specify charset
 
------
+## HTML Version
+
+- Necessary so browser render the approprate version of HTML (currently 5)
+- Avoids rendering in quirks mode
+- Specified using `<!doctype html>` as the first characters
+
+## Title
+
+- Provides a title for a page
+- Commonly shown in browser tab
+- Provide within the `<head>` element
+
+## head
+
+- Includes global page data
+- May include `<meta>` elements holding page metadata
+- Often include style information
+- Not rendered by the user agent
+
+## charset
+
+- Used to specify document character encoding
+- Commonly `<meta charset="utf-8">`
+- Defined in `<head>` element
+
+## body
+
+- Hold visible content elements
+
+## Content Structure
 
 What are some examples of structured content you encounter daily?
 
