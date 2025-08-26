@@ -1,6 +1,10 @@
 # Structuring Web Content
 
------
+---
+
+![Web and Internet](https://upload.wikimedia.org/wikipedia/commons/c/c4/IP_stack_connections.svg){height=540px}
+
+---
 
 ## What is HTML?
 
