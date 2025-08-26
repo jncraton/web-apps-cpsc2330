@@ -9,9 +9,9 @@
 
 ## HTML Version
 
-- Necessary so browser render the appropriate version of HTML (currently 5)
-- Avoids rendering in quirks mode
+- Currently 5
 - Specified using `<!doctype html>` as the first characters
+- Avoids rendering in quirks mode
 
 ## Title
 
