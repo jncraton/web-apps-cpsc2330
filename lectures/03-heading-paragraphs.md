@@ -2,9 +2,9 @@
 
 ## What is it?
 
-  - Using HTML elements like headings and paragraphs
-  - Organize content logically
-  - Make information easy to read and understand
+- Using HTML elements like headings and paragraphs
+- Organize content logically
+- Make information easy to read and understand
 
 -----
 
@@ -12,27 +12,27 @@ What are some examples of structured content you encounter daily?
 
 ## Why is it important?
 
-  - Improves readability for human users
-  - Helps with SEO for search engines
-  - Enhances accessibility for screen readers
+- Improves readability for human users
+- Helps with SEO for search engines
+- Enhances accessibility for screen readers
 
 ## Headings
 
-  - Organize document with hierarchy
-  - Use `<h1>` for main title
-  - Use `<h2>`, `<h3>`, etc. for subheadings
+- Organize document with hierarchy
+- Use `<h1>` for main title
+- Use `<h2>`, `<h3>`, etc. for subheadings
 
 ## Heading levels
 
-  - Six heading levels available
-  - `<h1>` is the most important
-  - `<h6>` is the least important
+- Six heading levels available
+- `<h1>` is the most important
+- `<h6>` is the least important
 
 ## Don't skip levels
 
-  - Do not jump from `<h1>` to `<h3>`
-  - Follow a logical sequence
-  - This creates an outline for the document
+- Do not jump from `<h1>` to `<h3>`
+- Follow a logical sequence
+- This creates an outline for the document
 
 -----
 
@@ -44,33 +44,33 @@ Using a text editor, create a document with an `<h1>` and two `<h2>` headings.
 
 ## Paragraphs
 
-  - Used for blocks of text
-  - The element is `<p>`
-  - Each block of text should have its own `<p>` element
+- Used for blocks of text
+- The element is `<p>`
+- Each block of text should have its own `<p>` element
 
 ## Semantics
 
-  - Use elements for their intended purpose
-  - `<p>` is for paragraphs
-  - Headings are for headings
+- Use elements for their intended purpose
+- `<p>` is for paragraphs
+- Headings are for headings
 
 ## What not to do
 
-  - Do not use headings for styling text
-  - Do not use `<p>` for a single line break
-  - Do not use empty `<p>` elements
+- Do not use headings for styling text
+- Do not use `<p>` for a single line break
+- Do not use empty `<p>` elements
 
 ## Why avoid empty elements?
 
-  - Screen readers may announce them
-  - They create unnecessary clutter
-  - Can cause unexpected rendering issues
+- Screen readers may announce them
+- They create unnecessary clutter
+- Can cause unexpected rendering issues
 
 ## Accessibility
 
-  - Proper structure is key
-  - Screen readers create an outline
-  - Visually impaired users can find content
+- Proper structure is key
+- Screen readers create an outline
+- Visually impaired users can find content
 
 ## Exercise
 
