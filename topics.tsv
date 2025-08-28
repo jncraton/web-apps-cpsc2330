@@ -1,7 +1,7 @@
 type	name	reading	content
 Lecture	Intro	Syllabus
 Lecture	HTML Syntax	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-Lecture	Headings and Paragraphs	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
+Lecture	Structure and Headings	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
 Lecture	Importance	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance
 Lecture	Lists	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
 Lecture	Structuring Documents	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
