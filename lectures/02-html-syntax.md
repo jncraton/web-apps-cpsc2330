@@ -1,3 +1,7 @@
+---
+reading: '[MDN: Basic HTML Syntax](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax)'
+...
+
 # Structuring Web Content
 
 ---
