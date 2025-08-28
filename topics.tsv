@@ -1,57 +1,57 @@
 type	name	reading	content
 Lecture	Intro	Syllabus
-GIL	HTML Syntax	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-GIL	Headings and Paragraphs	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
-GIL	Importance	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance
-GIL	Lists	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
-GIL	Structuring Documents	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
-GIL	Advanced Text	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features
-GIL	Links	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links
-GIL	Images	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images
-GIL	Multimedia	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio
-GIL	Table Basics	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics
-GIL	Table Accessibility	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-GIL	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+Lecture	HTML Syntax	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+Lecture	Headings and Paragraphs	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
+Lecture	Importance	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance
+Lecture	Lists	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
+Lecture	Structuring Documents	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
+Lecture	Advanced Text	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features
+Lecture	Links	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links
+Lecture	Images	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images
+Lecture	Multimedia	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio
+Lecture	Table Basics	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics
+Lecture	Table Accessibility	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+Lecture	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+Lecture	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
 Exam Review	HTML
 Midterm Exam	HTML
-GIL	CSS Intro	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-GIL	Basic Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-GIL	Advanced Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Attribute_selectors, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
-GIL	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
-GIL	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
-GIL	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
-GIL	Values and Units	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
-GIL	Sizing	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing
-GIL	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-GIL	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
-GIL	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-GIL	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-GIL	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-GIL	Lists and Link Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links
-GIL	Web Fonts	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts
-GIL	Layout	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction
-GIL	Positioning	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning
-GIL	Flexbox	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
-GIL	Grid	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
-GIL	Responsive Design	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
-GIL	Media Queries	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-GIL	JavaScript	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
-GIL	Variables	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
-GIL	Math	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math
-GIL	Strings	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings
-GIL	Arrays	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays
-GIL	Conditionals	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
-GIL	Loops	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
-GIL	Functions	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
-GIL	Events	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
-GIL	Objects	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
-GIL	DOM	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
-GIL	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests
-GIL	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
-GIL	Flask	https://flask.palletsprojects.com/en/stable/quickstart/
-GIL	Sqlite	https://docs.python.org/3/library/sqlite3.html
-GIL	htmx and MVC	https://htmx.org/docs/
+Lecture	CSS Intro	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+Lecture	Basic Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+Lecture	Advanced Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Attribute_selectors, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
+Lecture	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
+Lecture	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
+Lecture	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
+Lecture	Values and Units	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
+Lecture	Sizing	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing
+Lecture	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
+Lecture	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
+Lecture	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
+Lecture	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
+Lecture	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
+Lecture	Lists and Link Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links
+Lecture	Web Fonts	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts
+Lecture	Layout	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction
+Lecture	Positioning	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning
+Lecture	Flexbox	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
+Lecture	Grid	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
+Lecture	Responsive Design	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+Lecture	Media Queries	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
+Lecture	JavaScript	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+Lecture	Variables	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
+Lecture	Math	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math
+Lecture	Strings	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings
+Lecture	Arrays	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+Lecture	Conditionals	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+Lecture	Loops	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
+Lecture	Functions	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
+Lecture	Events	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
+Lecture	Objects	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
+Lecture	DOM	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
+Lecture	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests
+Lecture	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
+Lecture	Flask	https://flask.palletsprojects.com/en/stable/quickstart/
+Lecture	Sqlite	https://docs.python.org/3/library/sqlite3.html
+Lecture	htmx and MVC	https://htmx.org/docs/
 Presentations	Presentation 1-5
 Presentations	Presentation 6-10
 Presentations	Presentation 11-15
