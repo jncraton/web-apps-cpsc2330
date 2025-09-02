@@ -138,7 +138,7 @@ Create an ordered list of your top five favorite movies, starting from the fifth
 
 ---
 
-Consider a university course catalog. Would you use an ordered, unordered, or description list to display the course number, title, and a brief description for each course? Justify your choice.
+Consider a university course catalog. Would you use an ordered, unordered, or description list to display the course number, title, and a brief description for each course?
 
 ## Nesting Lists
 
