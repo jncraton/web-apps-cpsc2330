@@ -2,7 +2,7 @@
 reading: '[MDN: Lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists)'
 ...
 
-# Structuring Content: Lists
+# Lists
 
 ## Why Use Lists?
 
@@ -46,7 +46,7 @@ reading: '[MDN: Lists](https://developer.mozilla.org/en-US/docs/Learn_web_develo
 
 ---
 
-Why is it important for a list to be semantically correct, rather than just using `<div>` elements with bullet point styling?
+Why is it important for a list to be semantically correct, rather than just using generic elements with bullet point styling?
 
 ## Ordered Lists
 
@@ -89,9 +89,17 @@ Why is it important for a list to be semantically correct, rather than just usin
 </ol>
 ```
 
+## Type
+
+- `a` for lowercase letters
+- `A` for uppercase letters
+- `i` for lowercase Roman numerals
+- `I` for uppercase Roman numerals
+- `1` for numbers (default)
+
 ## Exercise
 
-Create an ordered list for the top three reasons you chose to study at AU, ensuring the list starts at number 10.
+Create an ordered list of your top five favorite movies, starting from the fifth
 
 ## Description Lists
 
