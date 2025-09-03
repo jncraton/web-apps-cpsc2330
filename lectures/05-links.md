@@ -6,7 +6,9 @@ reading: '[MDN: Creating Links](https://developer.mozilla.org/en-US/docs/Learn_w
 
 ---
 
-## What are Links?
+What are links?
+
+## Links
 
 - The fundamental building blocks of the web
 - Connect documents across the internet
