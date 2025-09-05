@@ -4,6 +4,10 @@ reading: '[MDN: Advanced Text Features](https://developer.mozilla.org/en-US/docs
 
 # Semantic Text Markup
 
+---
+
+Lab questions?
+
 ## Why Semantic HTML?
 
 - Describe content's meaning
