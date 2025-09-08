@@ -42,12 +42,12 @@ How does `alt` text improve the experience for *all* users, not just those with 
 
 ## Exercise
 
-Write an `<img>` tag for an image of a "sunset over mountains" located at "images/sunset.png". Include descriptive `alt` text.
+Write an `<img>` tag for an image of a "[sunset over mountains](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%D0%9D%D0%B0%D1%80%D1%86%D0%B8%D1%81%D0%B8_%D0%B2_%D0%9C%D0%B0%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D1%81%D0%B0%D1%85.jpg/960px-%D0%9D%D0%B0%D1%80%D1%86%D0%B8%D1%81%D0%B8_%D0%B2_%D0%9C%D0%B0%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D1%81%D0%B0%D1%85.jpg)" named sunset.jpg. Include descriptive `alt` text.
 
 ## Image Dimensions
 
 - The `width` and `height` attributes define the image's size
-- Values are typically specified in pixels, like `width="400"`
+- Values are specified in pixels, like `width="400"`
 - Using these attributes helps the browser reserve space before image load
 
 ## Aspect Ratio
@@ -87,7 +87,7 @@ Write an `<img>` tag for an image of a "sunset over mountains" located at "image
 
 ## Exercise
 
-Using your previous `<img>` tag for the "sunset over mountains," wrap it in a `<figure>` element and add a `<figcaption>` that says "A beautiful evening view of the mountains."
+Create an `<img>` tag for a [key opening a lock](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Pin_tumbler_with_key.svg/576px-Pin_tumbler_with_key.svg.png) wrap it in a `<figure>` element and add a `<figcaption>` that labels it.
 
 ---
 
@@ -106,6 +106,21 @@ What are some situations where you might choose to *not* include an image on a w
 - The `srcset` attribute allows you to provide a list of different image sources
 - The browser intelligently chooses the most appropriate image from this list
 - This choice is based on factors like the device's pixel density or viewport width
+
+## Example
+
+```html
+<picture>
+  <source
+    srcset="
+      https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/2560px-Saturn_during_Equinox.jpg 2560w,
+      https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1024px-Saturn_during_Equinox.jpg 1024w,
+      https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/330px-Saturn_during_Equinox.jpg 330w"
+    sizes="(max-width: 330px) 330px, (max-width: 1024px) 1024px, 2560px">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/960px-Saturn_during_Equinox.jpg" alt="Saturn during equinox">
+</picture>
+```
+
 
 ## Sizes Attribute
 
