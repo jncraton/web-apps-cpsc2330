@@ -169,3 +169,12 @@ In what scenarios would the `srcset` attribute be more appropriate than the `pic
 - Use `<img>` for embedding standalone images
 - Wrap images with captions in `<figure>` and `<figcaption>`
 - Choose the right element for the meaning, not just the appearance
+
+## App Icons
+
+- Complex subject when considering optimal sizes for all devices
+- Basic support is simple by adding the following to `<head>`
+
+```html
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+```
