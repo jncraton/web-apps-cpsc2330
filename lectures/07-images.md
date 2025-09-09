@@ -146,12 +146,6 @@ What are some situations where you might choose to *not* include an image on a w
 - The `<picture>` element provides a way list images in multiple formats (`jpg`, `webp`, etc)
 - User agents pick the format they can display based on user preferences
 
----
-
-In what scenarios would the `srcset` attribute be more appropriate than the `picture` element, and vice-versa?
-
----
-
 ## Accessibility Recap
 
 - Always prioritize the `alt` attribute for all meaningful images
