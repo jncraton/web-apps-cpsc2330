@@ -26,15 +26,17 @@ Lab questions?
 
 ---
 
-Consider a webpage without any headings. How might that impact a user navigating with a screen reader or someone quickly scanning the page for information?
+Consider a webpage without any headings.
 
-## The Main Element
+How might that impact a user navigating with a screen reader or someone quickly scanning the page for information?
+
+## `<main>`
 
 - Contains the dominant content of the `<body>`
 - What the central topic of the document is about
 - There should only be one `<main>` per document
 
-## Article Content
+## `<article>`
 
 - Independent, self-contained composition
 - Makes sense on its own if syndicated
@@ -44,13 +46,13 @@ Consider a webpage without any headings. How might that impact a user navigating
 
 Imagine you are building a blog post. What specific pieces of content would you place inside the `<article>` tag?
 
-## Section Groupings
+## `<section>`
 
 - Generic standalone section of a document
 - Often has a heading as its title
 - Groups related content thematically
 
-## Section vs Article
+## `<section>` vs `<article>`
 
 - An `<article>` is a complete, distributable unit
 - A `<section>` groups related content within a larger context
@@ -60,25 +62,25 @@ Imagine you are building a blog post. What specific pieces of content would you 
 
 When creating a page for a university course, where might you use `<section>` elements, and where might an `<article>` element be more appropriate?
 
-## Navigation Links
+## `<nav>`
 
 - The `<nav>` element contains primary navigation links
 - Main blocks of links for the entire site
 - Often links to other pages or parts of the current page
 
-## Aside Content
+## `<aside>`
 
 - Represents content indirectly related to the main content
 - Often presented as a sidebar or pull-quote
 - Think of footnotes or related links
 
-## Header
+## `<header>`
 
 - Introductory content for its nearest sectioning root
 - Can contain headings, navigation, or logos
 - Not just for the top of the entire document
 
-## Footer Conclusion
+## `<footer>`
 
 - Concluding content for its nearest sectioning root
 - Can include authorship, copyright, or related links
