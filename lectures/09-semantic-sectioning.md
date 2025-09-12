@@ -2,6 +2,8 @@
 reading: '[MDN: Content Sectioning Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements#content_sectioning)'
 ...
 
+Lab questions?
+
 # Structuring Web Content
 
 ## Content Sectioning
