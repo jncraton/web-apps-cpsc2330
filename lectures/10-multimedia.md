@@ -54,24 +54,24 @@ Beyond simply displaying media, how might the choice of an `<audio>` or `<video>
 - These provide more control over the user's viewing experience
 - They help integrate video seamlessly into your layout
 
-## Autoplay Loop
+## Autoplay and Loop
 
 - The `autoplay` attribute tries to play media automatically
 - The `loop` attribute makes media repeat indefinitely
 - Use these cautiously, as they can sometimes annoy users
 
 ```html
-<video src="intro.mp4" autoplay loop muted></video>
+<video src="intro.mp4" autoplay loop></video>
 ```
 
-## Muted Poster
+## Muted and Poster
 
 - The `muted` attribute silences the media by default
 - The `poster` attribute displays an image before video playback
 - A poster can be a placeholder or a preview of the content
 
 ```html
-<video src="clip.mp4" poster="thumbnail.jpg" controls></video>
+<video src="clip.mp4" poster="thumbnail.jpg" controls muted></video>
 ```
 
 ## Exercise
@@ -126,7 +126,7 @@ How does offering multiple media formats using `<source>` elements improve the a
 - This includes individuals with visual or hearing impairments
 - Accessibility is crucial for inclusive web design
 
-## Transcripts Captions
+## Transcripts and Captions
 
 - Provide transcripts for audio content
 - Offer captions for video, including spoken dialogue and sounds
@@ -169,6 +169,10 @@ Modify the previous `<video>` example (`lecture.mp4`) to include two `<source>` 
 ---
 
 When designing a page with embedded video, what are some of the ethical considerations regarding user experience, especially concerning `autoplay` and `muted` attributes?
+
+## Permissions
+
+- Many user agents prevent autoplay of video and audio
 
 ## Exercise
 
