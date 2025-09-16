@@ -150,10 +150,6 @@ How does offering multiple media formats using `<source>` elements improve the a
 - `kind="subtitles"` for translations of dialogue
 - `kind="descriptions"` for text descriptions of video actions
 
-## Exercise
-
-Modify the previous `<video>` example (`lecture.mp4`) to include two `<source>` elements: `lecture.mp4` (MP4 format) and `lecture.webm` (WebM format). Also, add a simple paragraph as fallback content for unsupported browsers.
-
 ## Audio Descriptions
 
 - For video content, provide audio descriptions for visually impaired users
@@ -162,13 +158,9 @@ Modify the previous `<video>` example (`lecture.mp4`) to include two `<source>` 
 
 ## Best Practices
 
-- Always include `controls` for user autonomy
+- Include `controls` for user autonomy
 - Consider `muted` and `autoplay` together for background media
 - Optimize media file sizes for faster loading
-
----
-
-When designing a page with embedded video, what are some of the ethical considerations regarding user experience, especially concerning `autoplay` and `muted` attributes?
 
 ## Permissions
 
