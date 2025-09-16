@@ -20,7 +20,7 @@ reading: '[MDN: Tables](https://developer.mozilla.org/en-US/docs/Learn_web_devel
 
 - The `<table>` element defines an HTML table
 - It acts as a container for all table content
-- All other table elements reside inside it
+- All other table-related elements reside inside it
 
 ## Table Rows
 
@@ -136,22 +136,8 @@ When might using `colspan` or `rowspan` make a table *less* accessible or harder
 - Clarifies the relationship between cells
 - Enhances understanding of complex tables
 
-## Styling Tables
-
-- CSS controls table appearance, not structure
-- Use CSS for borders, padding, colors, and fonts
-- Separate presentation from content for flexibility
-
-## Exercise
-
-Add a `<caption>` to your table. Then, for your header cells, add appropriate `scope` attributes (`scope="col"` or `scope="row"`).
-
 ## Best Practices
 
 - Use tables only for tabular data
 - Always include `<thead>`, `<tbody>`, and `<caption>`
 - Use `<th>` with `scope` for headers
-
----
-
-What new kinds of interactive or dynamic tabular data presentation could the web support in the future?
