@@ -20,8 +20,6 @@ What makes the Flask `request` object "global" yet still "threadsafe"?
 - They are a proxy to an object specific to a context
 - In Flask, the context is usually the handling thread
 
----
-
 ## How It Works
 
 - A request comes in and a new thread is spawned
@@ -56,11 +54,9 @@ What makes the Flask `request` object "global" yet still "threadsafe"?
 
 What are the benefits of using `request.args.get()` rather than directly accessing `request.args['key']`?
 
----
-
 ## Exercise
 
-Write a simple Flask route for `/greet` that takes a `name` from a URL parameter and returns "Hello, [name]!".
+Write a simple Flask route for `/greet` that takes a `name` from a form parameter and returns "Hello, [name]!".
 
 ## File Uploads
 
@@ -83,14 +79,7 @@ Write a simple Flask route for `/greet` that takes a `name` from a URL parameter
 ## `secure_filename()`
 
 - The `secure_filename()` function sanitizes the filename
-- It's part of the `werkzeug.utils` module
 - This helps prevent security vulnerabilities, like directory traversal
-
-## A Secure Example
-
-- Using `secure_filename()` is a best practice
-- It ensures that the filename is safe to use on the server
-- This protects your application from potential attacks
 
 ## Exercise
 
