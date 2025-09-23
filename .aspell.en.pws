@@ -1,4 +1,4 @@
-personal_ws-1.1 en 72 
+personal_ws-1.1 en 78 
 APIs
 AVIF
 Autoplay
@@ -26,9 +26,11 @@ MVC
 Multiline
 OL
 OSBoxes
+Optgroup
 Preformatted
 QEMU
 Quickstart
+Readonly
 Rowspan
 Rulesets
 SEO
@@ -39,6 +41,7 @@ VM
 VirtualBox
 WebM
 WebP
+autoplay
 charset
 checkboxes
 distributable
@@ -46,6 +49,7 @@ dropdown
 durations
 fidelitas
 fieldset
+filesystem
 img
 jpg
 mc
@@ -56,12 +60,14 @@ pixelated
 png
 pre
 px
+quickstart
 ruleset
 stylesheet
 stylesheets
 substring
 tahini
 th
+threadsafe
 tooltip
 unvisited
 utilitas

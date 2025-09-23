@@ -81,7 +81,7 @@ When would a `<textarea>` be more appropriate than a `type="text"` input?
 
 ## Readonly
 
-- Attribute to make form value unchangable
+- Attribute to make form value unchangeable
 - Element can be focused
 - Value is submitted with form
 
@@ -115,7 +115,7 @@ Describe a situation where client-side validation would be sufficient and one wh
 
 ## `pattern` Attribute
 
-  - Specifirs a regular expression against which the input value is checked
+  - Specifies a regular expression against which the input value is checked
   - Allows you to enforce a specific format
   - If input doesn't match the defined pattern, the form will not submit, and a validation message is displayed to the user
 
