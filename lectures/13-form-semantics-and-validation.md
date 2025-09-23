@@ -73,6 +73,18 @@ When would a `<textarea>` be more appropriate than a `type="text"` input?
 </select>
 ```
 
+## Disabled
+
+- Attribute to disable a form control
+- Users may not interact with the element
+- Value is not submitted with form
+
+## Readonly
+
+- Attribute to make form value unchangable
+- Element can be focused
+- Value is submitted with form
+
 ## Validation Basics
 
 - HTML5 provides built-in client-side form validation
