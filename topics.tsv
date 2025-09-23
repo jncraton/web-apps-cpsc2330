@@ -15,13 +15,16 @@ Lecture	Multimedia	https://developer.mozilla.org/en-US/docs/Learn_web_developmen
 Lecture	Table Basics	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics
 Lab	04: Sections, Tables, and Videos
 Lecture	Forms	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms
+Lecture	Form Validation
 Lecture	Forms and Flask
-Lab 05: Todo App (Flask and Forms)	
+Lab	05: Todo App (Flask and Forms)	
 Lecture	CSS Intro	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
 Lecture	Basic Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors
+No Class	Career Fair
+Lab	06: Basic CSS
 Lecture	Advanced Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Attribute_selectors, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
-Exam Review	HTML
-Midterm Exam	HTML
+Exam Review	HTML and Basic CSS
+Midterm Exam	HTML and Basic CSS
 Lecture	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
 Lecture	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
 Lecture	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
