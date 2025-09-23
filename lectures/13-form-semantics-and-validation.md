@@ -58,8 +58,10 @@ When would a `<textarea>` be more appropriate than a `type="text"` input?
 - It allows you to group related options under a common label
 - This feature is useful for long lists of choices, making them easier to navigate
 
+## Optgroup Example
+
 ```html
-<select id="continent" name="user_continent">
+<select id="continent" name="user_country">
   <optgroup label="North America">
     <option value="us">USA</option>
     <option value="ca">Canada</option>
@@ -98,3 +100,25 @@ Add the `minlength="5"` and `required` attributes to the "Your Name" text input 
 ---
 
 Describe a situation where client-side validation would be sufficient and one where server-side validation is absolutely necessary.
+
+## `pattern` Attribute
+
+  - Specifirs a regular expression against which the input value is checked
+  - Allows you to enforce a specific format
+  - If input doesn't match the defined pattern, the form will not submit, and a validation message is displayed to the user
+
+```html
+<label for="zip-code">Zip Code (e.g., 12345):</label>
+<input type="text" id="zip-code" name="zip_code" pattern="\d{5}" required>
+```
+
+## `placeholder` Attribute
+
+  - Provides a short hint or example
+  - The hint is displayed inside the input field itself and disappears on input
+  - Not a replacement for `<label>`
+
+```html
+<label for="search">Search:</label>
+<input type="search" id="search" name="search" placeholder="Enter keywords here">
+```
