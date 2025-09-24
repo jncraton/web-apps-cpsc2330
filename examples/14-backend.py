@@ -16,7 +16,7 @@ def root():
 
 @app.route('/greet')
 def greet():
-    return f"Hello, {quote(request.args['name'])}"
+    return f"Hello, {request.args['name']}"
 
 if __name__ == '__main__':
     app.run(debug=True)
