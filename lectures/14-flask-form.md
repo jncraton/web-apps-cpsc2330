@@ -70,9 +70,9 @@ Why is it important to sanitize data that is submitted by a user?
 ## Escaping HTML
 
 ```python
-from urllib.parse import quote
+from html import escape
 
-print(quote('<p>Hello, world</p>'))
+print(escape('<p>Hello, world</p>'))
 ```
 
 ## Libraries
