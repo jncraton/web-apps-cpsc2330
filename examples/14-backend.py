@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import send_file, request
-from urllib.parse import quote
+from html import escape
+
 app = Flask(__name__)
 
 import random
@@ -16,7 +17,7 @@ def root():
 
 @app.route('/greet')
 def greet():
-    return f"Hello, {request.args['name']}"
+    return f"Hello, {escape(request.args['name'])}"
 
 if __name__ == '__main__':
     app.run(debug=True)
