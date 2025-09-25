@@ -44,14 +44,12 @@ reading: '[MDN: Getting started with CSS](https://developer.mozilla.org/en-US/do
 
 ```css
 p {
-  color: blue;
-  font-size: 16px;
+  color: green;
 }
 ```
 
 - This rule targets all `<p>` (paragraph) elements
-- It sets their text color to blue
-- It also sets their font size to 16 pixels
+- It sets their text color to green
 
 ---
 
@@ -79,7 +77,7 @@ Imagine you're designing a complex website with hundreds of pages. Why might kee
 
 1.  Create two files: `index.html` and `style.css`
 2.  In `index.html`, add a paragraph `<p>` element and link `style.css`
-3.  In `style.css`, write a rule to make the paragraph text `green`
+3.  In `style.css`, write a rule to make the paragraph text `yellow`
 
 ## Internal Styles
 
@@ -114,6 +112,10 @@ When might an internal stylesheet be a more practical choice than an external on
 - Occasionally used for dynamic styles controlled by JavaScript
 - Can be helpful for quick, one-off overrides during development
 - Often seen in email templates for broad compatibility
+
+## Separation of Concerns
+
+[Google Style Guide](https://google.github.io/styleguide/htmlcssguide#Separation_of_Concerns)
 
 ## Order of Styles
 
