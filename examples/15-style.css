@@ -2,6 +2,10 @@ p {
   color: green;
 }
 
-body {
+p {
   color: red;
+}
+
+body {
+  color: blue;
 }
