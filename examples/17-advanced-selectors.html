@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+    <style>
+    p:hover::before, p:hover::after {
+      content: "HOVERING!";
+      color: red;
+    }
+    p:active::before, p:active::after {
+      content: "CLICKING!";
+      color: green;
+    }
+
+    #toggle {
+      display:none;
+    }
+
+    input:checked + label::after {
+      content: "On";
+    }
+
+    input:not(:checked) + label::after {
+      content: "Off";
+    }
+    </style>
+  </head>
+
+  <body>
+    <p>Hello, world!</p>
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle">Toggle: </label>
+  </body>
+</html>
