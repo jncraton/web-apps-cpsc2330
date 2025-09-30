@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title></title>
@@ -9,6 +9,372 @@
   </head>
 
   <body>
-    <script></script>
+    <article>
+      <section>
+        <h1>Basic CSS selectors</h1>
+        <figure>
+          <table>
+            <tbody>
+              <tr>
+                <th scope="row">Prerequisites:</th>
+                <td>
+                  HTML basics (study
+                  <a
+                    href="/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax"
+                    >Basic HTML syntax</a
+                  >).
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Learning outcomes:</th>
+                <td>
+                  <ul>
+                    <li>The basic selector types — element type, class, ID.</li>
+                    <li>
+                      Understand that IDs are unique per document — you should
+                      use an ID to select one specific element.
+                    </li>
+                    <li>
+                      Understand that you can have multiple classes per element,
+                      and these can be used to layer on styles as required.
+                    </li>
+                    <li>Selector lists.</li>
+                    <li>Universal selector.</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+      </section>
+      <aside>
+        <nav>
+          <h2>In this article</h2>
+          <ul>
+            <li><a href="#what_is_a_selector">What is a selector?</a></li>
+            <li><a href="#type_selectors">Type selectors</a></li>
+            <li><a href="#class_selectors">Class selectors</a></li>
+            <li><a href="#id_selectors">ID selectors</a></li>
+            <li><a href="#selector_lists">Selector lists</a></li>
+            <li>
+              <a href="#the_universal_selector">The universal selector</a>
+            </li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#see_also">See also</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section aria-labelledby="what_is_a_selector">
+        <h2 id="what_is_a_selector">
+          <a href="#what_is_a_selector">What is a selector?</a>
+        </h2>
+        <p>
+          A CSS selector is the first part of a CSS Rule. It is a pattern of
+          elements and other terms that tell the browser which HTML elements
+          should be selected to have the CSS property values inside the rule
+          applied to them. The element or elements which are selected by the
+          selector are referred to as the <em>subject of the selector</em>.
+        </p>
+        <p>
+          <img
+            src="/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors/selector.png"
+            alt="Some code with the h1 highlighted."
+            width="471"
+            height="218"
+            loading="lazy" />
+        </p>
+        <p>
+          In earlier articles you may have met some different selectors, and
+          learned that there are selectors that target the document in different
+          ways — for example by selecting an element such as <code>h1</code>, or
+          a class such as <code>.special</code>. Let's start off by recapping
+          the main ones you've already seen.
+        </p>
+      </section>
+      <section aria-labelledby="type_selectors">
+        <h2 id="type_selectors">
+          <a href="#type_selectors">Type selectors</a>
+        </h2>
+        <p>
+          A <strong>type selector</strong> is sometimes referred to as a
+          <em>tag name selector</em> or <em>element selector</em> because it
+          selects an HTML tag/element in your document. In the example below, we
+          have used the <code>span</code>, <code>em</code> and
+          <code>strong</code> selectors.
+        </p>
+        <p>
+          Try editing the following example (click <strong>"Play"</strong> to
+          open it in the MDN Playground) to add a CSS rule that selects the
+          <code>&lt;h1&gt;</code> element and changes its color to blue:
+        </p>
+      </section>
+      <section aria-labelledby="class_selectors">
+        <h2 id="class_selectors">
+          <a href="#class_selectors">Class selectors</a>
+        </h2>
+        <p>
+          The case-sensitive class selector starts with a dot (<code>.</code>)
+          character. It will select everything in the document with that class
+          applied to it. In the live example below we have created a class
+          called <code>highlight</code>, and have applied it to several places
+          in my document. All of the elements that have the class applied are
+          highlighted.
+        </p>
+      </section>
+      <section aria-labelledby="playing_with_class_selectors">
+        <h3 id="playing_with_class_selectors">
+          <a href="#playing_with_class_selectors"
+            >Playing with class selectors</a
+          >
+        </h3>
+        <p>
+          Try editing the above example (using MDN Playground) to make the
+          following changes:
+        </p>
+        <ol>
+          <li>
+            Edit the HTML to change the content the
+            <code>.highlight</code> styles are applied to. You could for example
+            add some <code>&lt;span&gt;</code> elements to wrap different parts
+            of the existing content and apply the <code>highlight</code> class
+            to those, remove some existing <code>highlight</code> classes, or
+            add some new content to apply the <code>highlight</code> class to.
+          </li>
+          <li>
+            Edit the CSS to modify the declarations inside the
+            <code>.highlight</code> rule, adding new ones if you feel like it,
+            and note how this affects the styling of all elements that have the
+            <code>highlight</code> class applied.
+          </li>
+          <li>
+            Create a new class rule inside the CSS with different declarations
+            inside it (for example, with a selector of
+            <code>.highlight2</code>), then try applying that to some of your
+            HTML.
+          </li>
+        </ol>
+      </section>
+      <section aria-labelledby="targeting_classes_on_particular_elements">
+        <h3 id="targeting_classes_on_particular_elements">
+          <a href="#targeting_classes_on_particular_elements"
+            >Targeting classes on particular elements</a
+          >
+        </h3>
+        <p>
+          You can create a selector that will target specific elements with the
+          class applied. In this next example, we will highlight a
+          <code>&lt;span&gt;</code> with a class of
+          <code>highlight</code> differently to an
+          <code>&lt;h1&gt;</code> heading with a class of
+          <code>highlight</code>. We do this by using the type selector for the
+          element we want to target, with the class appended using a dot, with
+          no white space in between.
+        </p>
+        <p>
+          This approach reduces the scope of a rule. The rule will only apply to
+          that particular element and class combination. You would need to add
+          another selector if you decided the rule should apply to other
+          elements too.
+        </p>
+      </section>
+      <section
+        aria-labelledby="target_an_element_if_it_has_more_than_one_class_applied">
+        <h3 id="target_an_element_if_it_has_more_than_one_class_applied">
+          <a href="#target_an_element_if_it_has_more_than_one_class_applied"
+            >Target an element if it has more than one class applied</a
+          >
+        </h3>
+        <p>
+          You can apply multiple classes to an element and target them
+          individually, or only select the element when all of the classes in
+          the selector are present. This can be helpful when building up
+          components that can be combined in different ways on your site.
+        </p>
+        <p>
+          In the example below, we have a <code>&lt;div&gt;</code> that contains
+          a note. The grey border is applied when the box has a class of
+          <code>notebox</code>. If it also has a class of
+          <code>warning</code> or <code>danger</code>, we change the
+          <a href="/en-US/docs/Web/CSS/border-color"
+            ><code>border-color</code></a
+          >.
+        </p>
+        <p>
+          We can tell the browser that we only want to match the element if it
+          has two classes applied by chaining them together with no white space
+          between them. You'll see that the last
+          <code>&lt;div&gt;</code> doesn't get any styling applied, as it only
+          has the <code>danger</code> class; it needs <code>notebox</code> as
+          well to get anything applied.
+        </p>
+      </section>
+      <section aria-labelledby="id_selectors">
+        <h2 id="id_selectors"><a href="#id_selectors">ID selectors</a></h2>
+        <p>
+          The case-sensitive ID selector begins with a <code>#</code> rather
+          than a dot character, but is used in the same way as a class selector.
+          The difference is that an ID can be used only once per page, and
+          elements can only have a single <code>id</code> value applied to them.
+          It can select an element that has the <code>id</code> set on it, and
+          you can precede the ID with a type selector to only target the element
+          if both the element and ID match. You can see both of these uses in
+          the following example:
+        </p>
+        <div>
+          <p>
+            <strong>Warning:</strong> Using the same ID multiple times in a
+            document may appear to work for styling purposes, but don't do this.
+            It results in invalid code, and will cause strange behavior in many
+            places.
+          </p>
+        </div>
+      </section>
+      <section aria-labelledby="playing_with_id_selectors">
+        <h3 id="playing_with_id_selectors">
+          <a href="#playing_with_id_selectors">Playing with ID selectors</a>
+        </h3>
+        <p>Try editing the above example to make the following changes:</p>
+        <ol>
+          <li>
+            Edit the HTML to apply the <code>#one</code> styles to the first
+            paragraph rather than the second.
+          </li>
+          <li>
+            Edit the CSS to modify the declarations inside the ID selectors, and
+            note how this changes the look of the HTML.
+          </li>
+        </ol>
+      </section>
+      <section aria-labelledby="selector_lists">
+        <h2 id="selector_lists">
+          <a href="#selector_lists">Selector lists</a>
+        </h2>
+        <p>
+          If you have more than one thing that uses the same CSS then the
+          individual selectors can be combined into a <em>selector list</em> so
+          that the rule is applied to all of the individual selectors. For
+          example, if I have the same CSS for an <code>h1</code> and also a
+          class of <code>.special</code>, I could write this as two separate
+          rules.
+        </p>
+        <p>
+          I could also combine these into a selector list, by adding a comma
+          between them.
+        </p>
+        <p>
+          White space is valid before or after the comma. You may also find the
+          selectors more readable if each is on a new line.
+        </p>
+      </section>
+      <section aria-labelledby="playing_with_selector_lists">
+        <h3 id="playing_with_selector_lists">
+          <a href="#playing_with_selector_lists">Playing with selector lists</a>
+        </h3>
+        <p>
+          In the example below, try combining the two selectors which have
+          identical declarations. The visual display should be the same after
+          combining them.
+        </p>
+      </section>
+      <section aria-labelledby="invalid_selectors_in_selector_lists">
+        <h3 id="invalid_selectors_in_selector_lists">
+          <a href="#invalid_selectors_in_selector_lists"
+            >Invalid selectors in selector lists</a
+          >
+        </h3>
+        <p>
+          When you group selectors in this way, if any selector is syntactically
+          invalid, the whole rule will be ignored.
+        </p>
+        <p>
+          In the following example, the invalid class selector rule will be
+          ignored, whereas the <code>h1</code> would still be styled.
+        </p>
+        <p>
+          When combined however, neither the <code>h1</code> nor the class will
+          be styled as the entire rule is deemed invalid.
+        </p>
+      </section>
+      <section aria-labelledby="the_universal_selector">
+        <h2 id="the_universal_selector">
+          <a href="#the_universal_selector">The universal selector</a>
+        </h2>
+        <p>
+          The universal selector is indicated by an asterisk (<code>*</code>).
+          It selects everything in the document. If <code>*</code> is chained
+          using a
+          <a href="/en-US/docs/Web/CSS/Descendant_combinator"
+            >descendant combinator</a
+          >, it selects everything inside that ancestor element. For example,
+          <code>p *</code> selects all the nested elements inside the
+          <code>&lt;p&gt;</code> element.
+        </p>
+        <p>
+          In the following example, we use the universal selector to remove the
+          margins on all elements. Instead of the browser's default styling,
+          which spaces out headings and paragraphs with margins, everything is
+          close together.
+        </p>
+        <p>
+          This kind of behavior can sometimes be seen in "reset stylesheets",
+          which strip out all of the browser styling. Since the universal
+          selector makes global changes, we use it for very specific situations,
+          such as the one described below.
+        </p>
+      </section>
+      <section
+        aria-labelledby="using_the_universal_selector_to_make_your_selectors_easier_to_read">
+        <h3
+          id="using_the_universal_selector_to_make_your_selectors_easier_to_read">
+          <a
+            href="#using_the_universal_selector_to_make_your_selectors_easier_to_read"
+            >Using the universal selector to make your selectors easier to
+            read</a
+          >
+        </h3>
+        <p>
+          One use of the universal selector is to make selectors easier to read
+          and more obvious in terms of what they are doing. For example, if we
+          wanted to select any descendant elements of an
+          <code>&lt;article&gt;</code> element that are the first child of their
+          parent, including direct children, and make them bold, we could use
+          the
+          <a href="/en-US/docs/Web/CSS/:first-child"
+            ><code>:first-child</code></a
+          >
+          pseudo-class. We will learn more about this in the lesson on
+          <a
+            href="/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements"
+            >pseudo-classes and pseudo-elements</a
+          >:
+        </p>
+        <p>
+          However, this selector could be confused with
+          <code>article:first-child</code>, which will select any
+          <code>&lt;article&gt;</code> element that is the first child of
+          another element.
+        </p>
+        <p>
+          To avoid this confusion, we can add the universal selector to the
+          <code>:first-child</code> pseudo-class, so it is more obvious what the
+          selector is doing. It is selecting <em>any</em> element which is the
+          first-child of an <code>&lt;article&gt;</code> element, or the
+          first-child of any descendant element of <code>&lt;article&gt;</code>:
+        </p>
+        <p>
+          Although both do the same thing, the readability is significantly
+          improved.
+        </p>
+      </section>
+      <section aria-labelledby="summary">
+        <h2 id="summary"><a href="#summary">Summary</a></h2>
+        <p>
+          In this article we've recapped CSS selectors, which enable you to
+          target particular HTML elements, looking at type, class, and ID
+          selectors in a bit more depth than we did previously. In the next
+          article we will dive into attribute selectors.
+        </p>
+      </section>
+    </article>
   </body>
 </html>
