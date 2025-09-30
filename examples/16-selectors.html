@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title></title>
-    <link rel="stylesheet" href="16.css">
+    <title>Basic CSS selectors</title>
+    <link rel="stylesheet" href="16.css" />
   </head>
 
   <body>
@@ -107,6 +107,24 @@
           open it in the MDN Playground) to add a CSS rule that selects the
           <code>&lt;h1&gt;</code> element and changes its color to blue:
         </p>
+        <h3>HTML</h3>
+        <pre><code>&lt;h1&gt;Type selectors&lt;/h1&gt;
+&lt;p&gt; Veggies es bonus vobis, proinde vos postulo essum magis &lt;span&gt;kohlrabi welsh onion&lt;/span&gt; daikon amaranth tatsoi tomatillo melon azuki bean garlic. &lt;/p&gt;
+&lt;p&gt; Gumbo beet greens corn soko &lt;strong&gt;endive&lt;/strong&gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini. &lt;/p&gt;
+&lt;p&gt; Turnip greens yarrow ricebean rutabaga &lt;em&gt;endive cauliflower&lt;/em&gt; sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach &lt;/p&gt;</code></pre>
+        <h3>CSS</h3>
+        <pre><code>body {
+  font-family: sans-serif;
+}
+span {
+  background-color: yellow;
+}
+strong {
+  color: rebeccapurple;
+}
+em {
+  color: rebeccapurple;
+}</code></pre>
       </section>
       <section aria-labelledby="class_selectors">
         <h2 id="class_selectors">
@@ -120,6 +138,17 @@
           in my document. All of the elements that have the class applied are
           highlighted.
         </p>
+        <h3>HTML</h3>
+        <pre><code>&lt;h1 class="highlight"&gt;Class selectors&lt;/h1&gt;
+&lt;p&gt; Veggies es bonus vobis, proinde vos postulo essum magis &lt;span class="highlight"&gt;kohlrabi welsh onion&lt;/span&gt; daikon amaranth tatsoi tomatillo melon azuki bean garlic. &lt;/p&gt;
+&lt;p class="highlight"&gt; Gumbo beet greens corn soko &lt;strong&gt;endive&lt;/strong&gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini. &lt;/p&gt;</code></pre>
+        <h3>CSS</h3>
+        <pre><code>body {
+  font-family: sans-serif;
+}
+.highlight {
+  background-color: yellow;
+}</code></pre>
       </section>
       <section aria-labelledby="playing_with_class_selectors">
         <h3 id="playing_with_class_selectors">
@@ -176,6 +205,16 @@
           another selector if you decided the rule should apply to other
           elements too.
         </p>
+        <h3>CSS</h3>
+        <pre><code>body {
+  font-family: sans-serif;
+}
+span.highlight {
+  background-color: yellow;
+}
+h1.highlight {
+  background-color: pink;
+}</code></pre>
       </section>
       <section
         aria-labelledby="target_an_element_if_it_has_more_than_one_class_applied">
@@ -207,6 +246,28 @@
           has the <code>danger</code> class; it needs <code>notebox</code> as
           well to get anything applied.
         </p>
+        <h3>HTML</h3>
+        <pre><code>&lt;div class="notebox"&gt;This is an informational note.&lt;/div&gt;
+&lt;div class="notebox warning"&gt;This note shows a warning.&lt;/div&gt;
+&lt;div class="notebox danger"&gt;This note shows danger!&lt;/div&gt;
+&lt;div class="danger"&gt; This won't get styled — it also needs to have the notebox class &lt;/div&gt;</code></pre>
+        <h3>CSS</h3>
+        <pre><code>body {
+  font-family: sans-serif;
+}
+.notebox {
+  border: 4px solid #666666;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.notebox.warning {
+  border-color: orange;
+  font-weight: bold;
+}
+.notebox.danger {
+  border-color: red;
+  font-weight: bold;
+}</code></pre>
       </section>
       <section aria-labelledby="id_selectors">
         <h2 id="id_selectors"><a href="#id_selectors">ID selectors</a></h2>
@@ -220,6 +281,20 @@
           if both the element and ID match. You can see both of these uses in
           the following example:
         </p>
+        <h3>HTML</h3>
+        <pre><code>&lt;h1 id="heading"&gt;ID selector&lt;/h1&gt;
+&lt;p&gt; Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic. &lt;/p&gt;
+&lt;p id="one"&gt; Gumbo beet greens corn soko &lt;strong&gt;endive&lt;/strong&gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini. &lt;/p&gt;</code></pre>
+        <h3>CSS</h3>
+        <pre><code>body {
+  font-family: sans-serif;
+}
+#one {
+  background-color: yellow;
+}
+h1#heading {
+  color: rebeccapurple;
+}</code></pre>
         <div>
           <p>
             <strong>Warning:</strong> Using the same ID multiple times in a
@@ -257,10 +332,21 @@
           class of <code>.special</code>, I could write this as two separate
           rules.
         </p>
+        <h3>CSS (Separate rules)</h3>
+        <pre><code>h1 {
+  color: blue;
+}
+.special {
+  color: blue;
+}</code></pre>
         <p>
           I could also combine these into a selector list, by adding a comma
           between them.
         </p>
+        <h3>CSS (Selector list)</h3>
+        <pre><code>h1, .special {
+  color: blue;
+}</code></pre>
         <p>
           White space is valid before or after the comma. You may also find the
           selectors more readable if each is on a new line.
@@ -290,10 +376,21 @@
           In the following example, the invalid class selector rule will be
           ignored, whereas the <code>h1</code> would still be styled.
         </p>
+        <h3>CSS (One invalid selector)</h3>
+        <pre><code>h1 {
+  color: blue;
+}
+..special {
+  color: blue;
+}</code></pre>
         <p>
           When combined however, neither the <code>h1</code> nor the class will
           be styled as the entire rule is deemed invalid.
         </p>
+        <h3>CSS (Combined, invalid list)</h3>
+        <pre><code>h1, ..special {
+  color: blue;
+}</code></pre>
       </section>
       <section aria-labelledby="the_universal_selector">
         <h2 id="the_universal_selector">
@@ -315,6 +412,17 @@
           which spaces out headings and paragraphs with margins, everything is
           close together.
         </p>
+        <h3>HTML</h3>
+        <pre><code>&lt;h1&gt;Universal selector&lt;/h1&gt;
+&lt;p&gt; Veggies es bonus vobis, proinde vos postulo essum magis &lt;span&gt;kohlrabi welsh onion&lt;/span&gt; daikon amaranth tatsoi tomatillo melon azuki bean garlic. &lt;/p&gt;
+&lt;p&gt; Gumbo beet greens corn soko &lt;strong&gt;endive&lt;/strong&gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini. &lt;/p&gt;</code></pre>
+        <h3>CSS</h3>
+        <pre><code>body {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+}</code></pre>
         <p>
           This kind of behavior can sometimes be seen in "reset stylesheets",
           which strip out all of the browser styling. Since the universal
@@ -348,6 +456,10 @@
             >pseudo-classes and pseudo-elements</a
           >:
         </p>
+        <h3>CSS (Confusing selector)</h3>
+        <pre><code>article :first-child {
+  font-weight: bold;
+}</code></pre>
         <p>
           However, this selector could be confused with
           <code>article:first-child</code>, which will select any
@@ -361,6 +473,10 @@
           first-child of an <code>&lt;article&gt;</code> element, or the
           first-child of any descendant element of <code>&lt;article&gt;</code>:
         </p>
+        <h3>CSS (Clearer selector)</h3>
+        <pre><code>article *:first-child {
+  font-weight: bold;
+}</code></pre>
         <p>
           Although both do the same thing, the readability is significantly
           improved.
