@@ -91,3 +91,8 @@ h1, .special {
   color: blue;
 }
 ```
+
+## Universal Selection
+
+- `*` selector selects all elements
+- Useful for clarity and resetting all properties
