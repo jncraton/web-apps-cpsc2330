@@ -2,7 +2,7 @@
 reading: '[MDN: Selectors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors)'
 ...
 
-# Styling Elements
+# Selectors
 
 ## Targeting CSS
 
