@@ -1,4 +1,4 @@
-personal_ws-1.1 en 78 
+personal_ws-1.1 en 81 
 APIs
 AVIF
 Autoplay
@@ -12,6 +12,7 @@ CPSC
 Checkboxes
 Codebase
 Colspan
+Combinators
 Craton
 DL
 Dropdown
@@ -44,6 +45,8 @@ WebP
 autoplay
 charset
 checkboxes
+combinator
+combinators
 distributable
 dropdown
 durations
