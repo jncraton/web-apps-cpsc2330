@@ -235,4 +235,4 @@ Can you think of a situation where `::before` or `::after` would be a more appro
 
 ## Exercise
 
-Add a small red square `::before` any `<li>` element that has a `data-status="new"` attribute.
+Add the text "New!" `::before` any `<li>` element that has a `data-status="new"` attribute.
