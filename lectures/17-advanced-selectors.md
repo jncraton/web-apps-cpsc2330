@@ -177,10 +177,6 @@ input:not([type="submit"]) {
 }
 ```
 
-## Exercise
-
-How would you style only the second item in a list to have a red background, and also ensure that any disabled text input fields have a light gray background?
-
 ## Pseudo-elements
 
 - Create content or target specific parts of an element
