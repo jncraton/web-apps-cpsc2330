@@ -19,6 +19,11 @@
       display:none;
     }
 
+    a[href$=".PDF" i]::after {
+      content:" (PDF Download)";
+    }
+    
+
     input:checked + label::after {
       content: "On";
     }
@@ -32,6 +37,11 @@
   <body>
     <p>Hello, world!</p>
 
+    <ul>
+      <li><a href="https://example.com/">Example page</a></li>
+      <li><a href="https://example.com/doc.pdf">Example document</a></li>
+    </ul>
+    
     <input type="checkbox" id="toggle">
     <label for="toggle">Toggle: </label>
   </body>
