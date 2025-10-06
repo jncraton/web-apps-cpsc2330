@@ -1,36 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title></title>
     <style>
-    p:hover::before, p:hover::after {
-      content: "HOVERING!";
-      color: red;
-    }
-    p:active::before, p:active::after {
-      content: "CLICKING!";
-      color: green;
-    }
+      p:hover::before,
+      p:hover::after {
+        content: "HOVERING!";
+        color: red;
+      }
+      p:active::before,
+      p:active::after {
+        content: "CLICKING!";
+        color: green;
+      }
 
-    #toggle {
-      display:none;
-    }
+      #toggle {
+        display: none;
+      }
 
-    a[href$=".PDF" i]::after {
-      content:" (PDF Download)";
-    }
-    
+      a[href$=".PDF" i]::after {
+        content: " (PDF Download)";
+      }
 
-    input:checked + label::after {
-      content: "On";
-    }
+      input:checked + label::after {
+        content: "On";
+      }
 
-    input:not(:checked) + label::after {
-      content: "Off";
-    }
+      input:not(:checked) + label::after {
+        content: "Off";
+      }
     </style>
   </head>
 
@@ -41,8 +42,8 @@
       <li><a href="https://example.com/">Example page</a></li>
       <li><a href="https://example.com/doc.pdf">Example document</a></li>
     </ul>
-    
-    <input type="checkbox" id="toggle">
+
+    <input type="checkbox" id="toggle" />
     <label for="toggle">Toggle: </label>
   </body>
 </html>
