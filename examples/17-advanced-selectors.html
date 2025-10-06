@@ -6,9 +6,66 @@
 
     <title>Advanced Selectors</title>
     <style>
+    input {
+      display: block;
+    }
+    
+    a[title] {
+      border-bottom: 1px dotted blue;
+    }
+
+    input[type="email"] {
+      background-color: #eee;
+    }
+
+    input[type="checkbox"] {
+      display: inline;
+    }
+
+    a[href*="example.com"] {
+      color: green;
+    }
+
+    a[href$=".PDF" i] {
+      color: red;
+    }
+
+    a[href$=".PDF" i]::after {
+      content: " (PDF download)";
+    }
+
+    input[type="submit"] {
+      padding:20px;
+      border:5px solid red;
+    }
+
+    a:hover {
+      color: yellow;
+    }
+
+    li:nth-child(odd) {
+      font-weight:800;
+    }
     </style>
   </head>
 
   <body>
+    <ol>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ol>
+    <label>Name: <input type=text></label>
+    <label>Email: <input type=email></label>
+    <label>Agree: <input type=checkbox data-info="red big"></label>
+    <a href="https://example.com/" title="An example site">example.com</a>
+    <a href="https://example.com/">example.com</a>
+    <a href="https://example.com/doc.pdf">example pdf</a>
+    <a href="https://youtube.com/">youtube.com</a>
+    <p>
+    Some <span title="A sample">sample</span> text.
+    </p>
+    <input type="button" value="Unimportant">
+    <input type="submit" value="Submit">
   </body>
 </html>
