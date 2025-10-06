@@ -4,7 +4,7 @@ reading: '[MDN: Attribute Selectors](https://developer.mozilla.org/en-US/docs/Le
 
 # Advanced Selectors
 
-## Why Advanced?
+---
 
 - Target elements based on their unique attributes
 - Add decorative content without changing HTML
