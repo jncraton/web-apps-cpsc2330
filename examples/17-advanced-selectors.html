@@ -4,35 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title></title>
+    <title>Advanced Selectors</title>
     <style>
-      p:hover::before,
-      p:hover::after {
-        content: "HOVERING!";
-        color: red;
-      }
-      p:active::before,
-      p:active::after {
-        content: "CLICKING!";
-        color: green;
-      }
-
-      #toggle {
-        display: none;
-      }
-
-      a[href$=".PDF" i]::after {
-        content: " (PDF Download)";
-      }
     </style>
   </head>
 
   <body>
-    <p>Hello, world!</p>
-
-    <ul>
-      <li><a href="https://example.com/">Example page</a></li>
-      <li><a href="https://example.com/doc.pdf">Example document</a></li>
-    </ul>
   </body>
 </html>
