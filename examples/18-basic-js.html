@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Counter Example</title>
+  </head>
+
+  <body>
+    <main>
+    <input type=number id=counter value="0">
+    <input type=button id=increment value="Increment">
+    <input type=button id=reset value="Reset">
+    </main>
+    <script>
+    increment.addEventListener("click", e => {
+      counter.value = +counter.value + 1
+    })
+    
+    reset.addEventListener("click", e => {
+      counter.value = 0
+    })
+    </script>
+  </body>
+</html>
