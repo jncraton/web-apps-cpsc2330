@@ -7,8 +7,16 @@
 
   <body>
     <main>
+      <button id="button">1</button>
     </main>
     <script>
+    button.style.color = "red"
+    
+    console.log(document)
+
+    button.addEventListener("click", (event) => {
+      event.target.textContent = +event.target.textContent + 1
+    })
     </script>
   </body>
 </html>
