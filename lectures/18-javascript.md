@@ -133,4 +133,4 @@ Identify whether the following actions are primarily handled by JavaScript, HTML
 
 ## Exercise
 
-Open your browser's developer console (F12 or right-click -> Inspect, then 'Console' tab). Type `alert('Hello, Class!');` and press Enter. Describe what happens.
+Open your browser's developer console (F12 or right-click -> Inspect, then 'Console' tab). Type `alert('Hello, Class!');` and press Enter.
