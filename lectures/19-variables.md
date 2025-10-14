@@ -2,7 +2,7 @@
 reading: '[Variables](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables)'
 ...
 
-# Data Storage
+# Variables
 
 ## What Are Variables?
 
@@ -19,14 +19,13 @@ reading: '[Variables](https://developer.mozilla.org/en-US/docs/Learn_web_develop
 ## Declaring Variables
 
 - You must tell JavaScript you're creating one
-- This reserves a space in memory for its value
 - Keywords `var`, `let`, and `const` are used
 
 ## The `var` Keyword
 
 - The original way to declare variables in JavaScript
-- Still seen in older codebases, important to understand
-- Known for its unique scope and hoisting behaviors
+- Should generally be avoided
+- Known for its *unique* scope and hoisting behaviors
 
 ## `var` Scope
 
