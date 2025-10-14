@@ -118,11 +118,11 @@ Imagine working on a team project. How might inconsistent variable naming, or la
 
 ## Exercise
 
-- Without running the code, predict the output for each `console.log`:
-    ```javascript
-    console.log(greeting);
-    var greeting = "Hello";
-    console.log(farewell);
-    let farewell = "Goodbye";
-    ```
-- Explain the reasoning behind each prediction based on hoisting rules
+Without running the code, predict the output for each `console.log`
+
+```javascript
+console.log(greeting)
+var greeting = "Hello"
+console.log(farewell)
+let farewell = "Goodbye"
+```
