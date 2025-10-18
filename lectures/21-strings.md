@@ -83,10 +83,6 @@ let firstChar = word[0]; // 'h'
 - It uniquely supports negative indices for counting from the end
 - `str.at(-1)` retrieves the very last character of a string
 
----
-
-Imagine you're building a feature that processes user input. When would you prefer to use the `at()` method over bracket notation (`[]`) for accessing string characters, and why?
-
 ## Case Conversion
 
 - Change the case of all alphabetic characters in a string
@@ -147,8 +143,8 @@ Consider an application that takes user input from a form. Describe a scenario w
 - `padEnd(length, char)` adds characters to the string's end
 
 ```javascript
-let num = "42";
-let paddedNum = num.padStart(5, "0"); // "00042"
+let num = "42"
+let paddedNum = num.padStart(5, "0") // "00042"
 ```
 
 ## Splitting Strings
