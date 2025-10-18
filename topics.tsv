@@ -25,6 +25,18 @@ Lab	06: Basic CSS
 Lecture	Advanced Selectors	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Attribute_selectors, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
 Exam Review	HTML and Basic CSS
 Midterm Exam	HTML and Basic CSS
+Leture	Exam Feedback
+Lecture	JavaScript	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+Lecture	Variables	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
+Lecture	Math	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math
+Lecture	Strings	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings
+Lecture	Arrays	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+Lecture	Conditionals	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+Lecture	Loops	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
+Lecture	Functions	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
+Lecture	Events	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
+Lecture	Objects	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
+Lecture	DOM	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
 Lecture	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
 Lecture	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
 Lecture	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
@@ -43,17 +55,6 @@ Lecture	Flexbox	https://developer.mozilla.org/en-US/docs/Learn_web_development/C
 Lecture	Grid	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
 Lecture	Responsive Design	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
 Lecture	Media Queries	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-Lecture	JavaScript	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
-Lecture	Variables	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
-Lecture	Math	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math
-Lecture	Strings	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings
-Lecture	Arrays	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays
-Lecture	Conditionals	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
-Lecture	Loops	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
-Lecture	Functions	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
-Lecture	Events	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
-Lecture	Objects	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
-Lecture	DOM	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
 Lecture	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests
 Lecture	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
 Lecture	Flask	https://flask.palletsprojects.com/en/stable/quickstart/
