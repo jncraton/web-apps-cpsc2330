@@ -7,8 +7,7 @@ reading: '[Arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Learn_
 ## What Are Arrays?
 
 - Arrays are ordered lists of data
-- They allow you to store multiple items
-- All contained within a single variable
+- They allow you to store multiple items within a single variable
 
 ## Why Use Arrays?
 
@@ -78,10 +77,6 @@ Create an array named `favoriteFoods` with three foods. Then, change the second 
 - It also returns the item that was removed
 - Example: `colors.shift()`
 
----
-
-Imagine you are managing a to-do list application. When would you prefer to use `push()` over `unshift()` for adding a new task to your list?
-
 ## Finding Items
 
 - `indexOf()` finds the first matching item's index
@@ -147,4 +142,4 @@ When would you choose a traditional `for` loop over `for...of` or `forEach()` wh
 
 ## Exercise
 
-Given `let students = ['Alice', 'Bob', 'Charlie']`, use `splice()` to remove 'Bob' and add 'David' in his place.
+Given `let students = ['Alice', 'Bob', 'Charlie']`, use `splice()` to remove 'Bob' and add 'Eve' and 'Mallory' in his place.
