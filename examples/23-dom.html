@@ -5,11 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Document Object Model</title>
-    <style></style>
+    <style>
+    header p {
+      display: inline;
+    }
+    </style>
   </head>
 
   <body>
+    <header>
+      <p>A</p>
+      <p id="paragraph">B</p>
+      <p>C</p>
+    </header>
+    <main>
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+    </main>
     <script>
+    console.log(document)
+
+    document.title = "DOM"
+
+    console.log(document.getElementById("paragraph"))
+    console.log(document.querySelector("#paragraph"))
+    console.log(document.querySelector("p"))
+    console.log(document.querySelectorAll("p"))
+    console.log(document.querySelectorAll("#color"))
+
+    const main = document.querySelector("main")
+    //const paras = main.querySelectorAll("p")
+    const paras = document.querySelectorAll("main p")
+    
+    const p = document.querySelector("main p")
+    p.textContent = "The first paragraph"
+
+    const username = "<h1>Jon</h1>"
+    
+    main.textContent = `${username}`
+
+    const para = document.createElement("p")
+    para.textContent = "My new paragraph"
+
+    main.appendChild(para)
     </script>
   </body>
 </html>
