@@ -1,5 +1,5 @@
 ---
-reading: '[Working with Math](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math)'
+reading: '[MDN: Math](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Math)'
 ...
 
 # JavaScript Math

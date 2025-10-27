@@ -1,5 +1,5 @@
 ---
-reading: '[Working with Text (Strings)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings)'
+reading: '[MDN: Strings](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings)'
 ...
 
 # Strings

@@ -1,5 +1,5 @@
 ---
-reading: '[Variables](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables)'
+reading: '[MDN: Variables](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables)'
 ...
 
 # Variables

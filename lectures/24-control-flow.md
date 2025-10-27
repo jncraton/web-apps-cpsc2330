@@ -1,5 +1,5 @@
 ---
-reading: '[Conditionals and Loops in JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals) and [Loops in JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops)'
+reading: '[MDN: Conditionals](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Conditionals) and [MDN: Loops](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops)'
 ...
 
 # Controlling Program Flow

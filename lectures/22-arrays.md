@@ -1,5 +1,5 @@
 ---
-reading: '[Arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays)'
+reading: '[MDN: Arrays](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Arrays)'
 ...
 
 # Arrays

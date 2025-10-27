@@ -1,5 +1,5 @@
 ---
-reading: '[What is JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript)'
+reading: '[MDN: What is JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript)'
 ...
 
 # JavaScript
