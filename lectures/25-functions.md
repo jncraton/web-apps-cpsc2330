@@ -89,7 +89,7 @@ greetName('Bob')
 function add(a, b) {
   return a + b
 }
-const sum = add(5, 3); // sum is 8
+const sum = add(5, 3) // sum is 8
 ```
 
 ---
