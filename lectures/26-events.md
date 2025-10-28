@@ -61,7 +61,7 @@ const btn = document.querySelector('button');
 
 btn.onclick = function() {
   alert('Hello again!')
-};
+}
 ```
 
 ## Property Limitations
@@ -107,7 +107,7 @@ It's common to name this object `event`, `evt`, or `e`.
 
 ```javascript
 btn.addEventListener('click', function(e) {
-  console.log(e);
+  console.log(e)
 });
 ```
 
@@ -151,5 +151,5 @@ What if you have 100 list items and want each to be clickable? Adding 100 listen
 
 ## Exercise
 
-Imagine an HTML `<ul>` with the id `shopping-list`. Write a single event listener on the `<ul>` that logs the text content of any `<li>` element that is clicked inside of it.
+Create an HTML `<ul>` with the id `shopping-list`. Write a single event listener on the `<ul>` that logs the text content of any `<li>` element that is clicked inside of it.
 ```
