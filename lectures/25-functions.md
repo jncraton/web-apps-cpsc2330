@@ -2,7 +2,7 @@
 reading: '[MDN: Functions](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions)'
 ...
 
-# Code Reusability
+# Functions
 
 ## What Are Functions?
 
