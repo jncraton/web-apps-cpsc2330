@@ -10,20 +10,54 @@
 
   <body>
     <script>
-    let a = function(x) {
-      console.log(x, this)
+    function greetName(name) {
+      if (name === undefined) {
+        console.log("No name supplied")
+      } else {
+        console.log(`Hello ${name}!`)
+      }
     }
 
-    let b = x => console.log(x, this)
+    greetName()    
+    greetName("Alice")
 
-    a(1)
-    b(2)
+    function add(a, b) {
+      return a + b
+    }
+    console.log(add(5, 3))
 
-    let obj = {a: a, b: b}
-    console.log(obj)
-    obj.a() // User obj objects, as `this` is determined at runtime
-    obj.b() // Uses global object, as `this` is determined at definition time
-    
+    const add2 = (a, b) => a + b
+    console.log(add2(9, 12))
+
+    const add3 = (a, b) => {
+      let sum = a + b
+      return sum
+    }
+    console.log(add3(1, 2))
+
+    const square = n => n*n
+    console.log(square(6))
+
+    const nums = [1, 2, 3]
+    console.log(nums.map(n => n*n))
+
+    const multiply = function(x, y) {
+      return x * y
+    }
+    console.log(multiply(4, 2))
+
+    const area = (x, y) => x*y
+    console.log(area(10, 5))
+
+    const obj = {}
+    obj.w = 5
+    obj.h = 10
+    obj.area = function() {
+      console.log(this)
+      
+      return this.w * this.h
+    }
+    console.log(obj.area())
     </script>
   </body>
 </html>
