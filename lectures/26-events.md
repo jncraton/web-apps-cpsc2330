@@ -1,4 +1,3 @@
-```
 ---
 reading: '[MDN: Events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events)'
 ...
@@ -152,4 +151,3 @@ What if you have 100 list items and want each to be clickable? Adding 100 listen
 ## Exercise
 
 Create an HTML `<ul>` with the id `shopping-list`. Write a single event listener on the `<ul>` that logs the text content of any `<li>` element that is clicked inside of it.
-```
