@@ -9,6 +9,38 @@
   </head>
 
   <body>
-    <script></script>
+    <button id="first-button" onclick="console.log('Hello!');">
+      Click Me
+    </button>
+
+    <button id="my-button">Another button</button>
+    <button id="color-changer">Change color</button>
+
+    <p>
+    The quick brown <em>fox</em> jumped <span>over</span> the lazy dog.
+    </p>
+    <script>
+    document.querySelector("#my-button").onclick = console.log
+    document.querySelectorAll("button").forEach(button => {
+      console.log(button)
+      button.addEventListener('click', event => {  
+        const color = `rgb(
+          ${Math.random()*255}, 
+          ${Math.random()*255}, 
+          ${Math.random()*255})`
+        event.target.style.color = color
+        document.body.style.background = color
+      })
+    })
+
+    document.querySelector("p").addEventListener('click', e => {
+      console.log("Clicked", e.target)
+      const color = `rgb(
+        ${Math.random()*255}, 
+        ${Math.random()*255}, 
+        ${Math.random()*255})`
+      e.target.style.color = color
+    })
+    </script>
   </body>
 </html>
