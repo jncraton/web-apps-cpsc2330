@@ -36,6 +36,8 @@ Lecture	Control Flow	https://developer.mozilla.org/en-US/docs/Learn_web_developm
 Lecture	Functions	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
 Lecture	Events	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
 Lecture	Objects	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
+Lecture	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests
+Lecture	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
 Lecture	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
 Lecture	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
 Lecture	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
@@ -54,8 +56,6 @@ Lecture	Flexbox	https://developer.mozilla.org/en-US/docs/Learn_web_development/C
 Lecture	Grid	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
 Lecture	Responsive Design	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
 Lecture	Media Queries	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-Lecture	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests
-Lecture	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
 Lecture	Flask	https://flask.palletsprojects.com/en/stable/quickstart/
 Lecture	Sqlite	https://docs.python.org/3/library/sqlite3.html
 Lecture	htmx and MVC	https://htmx.org/docs/
