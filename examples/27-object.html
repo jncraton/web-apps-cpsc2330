@@ -9,6 +9,26 @@
   </head>
 
   <body>
-    <script></script>
+    <script>
+    function Animal(name, age) {
+      this.name = name
+      this.age = age
+    }
+
+    Animal.prototype.greet = function () {
+      console.log(`Hi my name is ${this.name}`)
+      console.log(`Hi my name is ${name}`)
+    }
+
+    let dog = new Animal("Rex", 7)
+    dog.name = "Not Rex"
+
+    let cat = new Animal("Felix", 3)
+
+    console.log(cat.name)
+    console.log(dog['name'])
+
+    dog.greet()
+    </script>
   </body>
 </html>
