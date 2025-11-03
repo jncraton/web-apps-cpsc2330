@@ -32,6 +32,8 @@ dog.name
 // returns 'Fido'
 ```
 
+---
+
 - Bracket notation is an alternative that allows variable property names
 
 ```javascript
