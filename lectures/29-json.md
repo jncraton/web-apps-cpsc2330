@@ -49,13 +49,13 @@ reading: '[MDN: JSON](https://developer.mozilla.org/en-US/docs/Learn_web_develop
 }
 ```
 
+## Specification
+
+[json.org](https://www.json.org/)
+
 ## Exercise
 
 Create a valid JSON object representing a book that includes a `title` (string) and an `pages` (number) property.
-
-```json
-/* Write your JSON here */
-```
 
 ## JSON vs JavaScript
 
