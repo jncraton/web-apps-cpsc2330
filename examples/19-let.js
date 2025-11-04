@@ -4,7 +4,7 @@ function f() {
 
     console.log(a)
   }
-  
+
   console.log(a)
 }
 
