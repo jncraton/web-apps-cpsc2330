@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+    <style></style>
+  </head>
+
+  <body>
+    <main>
+    </main>
+    <script>
+    // Note: `fetch` requires a local webserver (e.g. python3 -m http.server)
+    fetch('hello.html')
+      .then(response => response.blob())
+      .then(blob => blob.text())
+      .then(text => {
+        console.log(text)
+        document.querySelector('main').innerHTML = text
+      })
+    </script>
+  </body>
+</html>
