@@ -13,38 +13,6 @@
     <main></main>
     <script>
       // Note: `fetch` requires a local webserver (e.g. python3 -m http.server)
-      fetch('hello.html')
-        .then(response => {
-          console.log(response.ok, response.status)
-          return response.blob()
-        })
-        .catch(e => console.error("Error: ", e))
-        .then(blob => blob.text())
-        .then(text => {
-          console.log(text)
-          document.querySelector('main').innerHTML = text
-        })
-
-      async function load() {
-        try {
-          const response = await fetch('hello.html')
-          console.log(response)
-          const text = await response.text()
-          console.log(text)
-        } catch (error) {
-          console.error('ERROR: ', error)
-        }
-
-        getFruits()
-      }
-
-      async function getFruits() {
-        const response = await fetch('api/fruits.json')
-        const json = await response.json()
-        console.log(json)
-      }
-
-      addEventListener('load', load)
     </script>
   </body>
 </html>
