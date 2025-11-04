@@ -24,7 +24,7 @@ reading: '[MDN: Network requests](https://developer.mozilla.org/en-US/docs/Learn
 
 ## Modern Fetching
 
-- The modern and simpler standard is the `fetch()` API
+- The modern and simpler standard is the [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API
 - It returns a `Promise`, which represents the eventual result of an operation
 - Promises make managing asynchronous operations far cleaner
 
