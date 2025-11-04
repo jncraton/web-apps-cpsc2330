@@ -14,7 +14,10 @@
     <script>
     // Note: `fetch` requires a local webserver (e.g. python3 -m http.server)
     fetch('hello.html')
-      .then(response => response.blob())
+      .then(response => {
+        console.log(response.ok, response.status)
+        return response.blob()
+      })
       .then(blob => blob.text())
       .then(text => {
         console.log(text)
