@@ -58,7 +58,7 @@ fetch('users/data')
 
 ## Exercise
 
-Write the JavaScript code necessary to fetch data from the hypothetical URL `/api/items` and print the resulting JavaScript object to the console.
+Write the JavaScript code necessary to fetch data from the hypothetical URL `/api/fruits.json` and print the resulting JavaScript object to the console.
 
 ## Connection Errors
 
@@ -110,10 +110,6 @@ const response = await fetch(url)
 - If a Promise is rejected, the execution moves into the `catch` block
 - This provides a familiar structure for handling errors in modern code
 
-## Exercise
-
-Using `async`/`await` and a `try...catch` block, rewrite the basic fetch request from the previous exercise, logging any errors encountered.
-
 ---
 
 How does the inherent asynchronous nature of network requests fundamentally force us to change our programming mindset compared to traditional synchronous code execution?
@@ -136,4 +132,4 @@ Aside from basic connectivity, what security implications must a developer consi
 
 ## Exercise
 
-What is the JavaScript code to check if a `Response` object named `res` indicates a successful HTTP status, and what is the typical range for a successful status code?
+Write JavaScript code to check if a `Response` object named `res` indicates a successful HTTP status.
