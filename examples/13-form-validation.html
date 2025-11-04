@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Form Examples</title>
   </head>
@@ -11,27 +11,28 @@
     <form>
       <fieldset>
         <legend>Contact</legend>
-        <label>Email<input type="email" name="user_email" required minlength="3"></label>
+        <label>Email<input type="email" name="user_email" required minlength="3" /></label>
         <label for="zip-code">Zip Code (e.g., 12345):</label>
-        <input type="text" id="zip-code" name="zip_code" pattern="\d{5}" placeholder="12345..." required>
-        <label>Country
-        <select id="country" name="user_country">
-          <optgroup label="North America">
-            <option value="us">USA</option>
-            <option value="ca">Canada</option>
-          </optgroup>
-          <optgroup label="Europe">
-            <option value="de">Germany</option>
-            <option value="fr">France</option>
-          </optgroup>
+        <input type="text" id="zip-code" name="zip_code" pattern="\d{5}" placeholder="12345..." required />
+        <label
+          >Country
+          <select id="country" name="user_country">
+            <optgroup label="North America">
+              <option value="us">USA</option>
+              <option value="ca">Canada</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="de">Germany</option>
+              <option value="fr">France</option>
+            </optgroup>
           </select>
-        </label>        
+        </label>
       </fieldset>
       <fieldset>
         <legend>Message</legend>
         <textarea name="message" rows="5" cols="80"></textarea>
       </fieldset>
-      <input type="submit" value="Send">
+      <input type="submit" value="Send" />
     </form>
   </body>
 </html>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Objects</title>
@@ -10,25 +10,25 @@
 
   <body>
     <script>
-    function Animal(name, age) {
-      this.name = name
-      this.age = age
-    }
+      function Animal(name, age) {
+        this.name = name
+        this.age = age
+      }
 
-    Animal.prototype.greet = function () {
-      console.log(`Hi my name is ${this.name}`)
-      console.log(`Hi my name is ${name}`)
-    }
+      Animal.prototype.greet = function () {
+        console.log(`Hi my name is ${this.name}`)
+        console.log(`Hi my name is ${name}`)
+      }
 
-    let dog = new Animal("Rex", 7)
-    dog.name = "Not Rex"
+      let dog = new Animal('Rex', 7)
+      dog.name = 'Not Rex'
 
-    let cat = new Animal("Felix", 3)
+      let cat = new Animal('Felix', 3)
 
-    console.log(cat.name)
-    console.log(dog['name'])
+      console.log(cat.name)
+      console.log(dog['name'])
 
-    dog.greet()
+      dog.greet()
     </script>
   </body>
 </html>

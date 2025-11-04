@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Control Flow</title>
@@ -9,38 +9,38 @@
   </head>
 
   <body>
-    <input id="score-input" type="number">
+    <input id="score-input" type="number" />
     <script>
-    let score = document.querySelector("#score-input")
-    
-    score.addEventListener('input', e => {
-      if (score.value >= 90) {
-        console.log("A")
-      } else if (score.value >= 80) {
-        console.log("B")
-      } else {
-        console.log("Needs review")
+      let score = document.querySelector('#score-input')
+
+      score.addEventListener('input', e => {
+        if (score.value >= 90) {
+          console.log('A')
+        } else if (score.value >= 80) {
+          console.log('B')
+        } else {
+          console.log('Needs review')
+        }
+      })
+
+      for (let i = 0; i <= 10; i += 1) {
+        console.log(i)
       }
-    })
 
-    for (let i = 0; i <= 10; i+=1) {
-      console.log(i)
-    }
+      let i = 0
+      while (i <= 10) {
+        console.log(i)
+        i += 1
+      }
 
-    let i = 0
-    while (i <= 10) {
-      console.log(i)
-      i += 1
-    }
+      while (true) {
+        break
+        alert('Hello there')
+      }
 
-    while (true) {
-      break
-      alert("Hello there")
-    }
-
-    do {
-      alert("Hello there")
-    } while (false)
+      do {
+        alert('Hello there')
+      } while (false)
     </script>
   </body>
 </html>

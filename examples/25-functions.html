@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Functions</title>
@@ -10,54 +10,54 @@
 
   <body>
     <script>
-    function greetName(name) {
-      if (name === undefined) {
-        console.log("No name supplied")
-      } else {
-        console.log(`Hello ${name}!`)
+      function greetName(name) {
+        if (name === undefined) {
+          console.log('No name supplied')
+        } else {
+          console.log(`Hello ${name}!`)
+        }
       }
-    }
 
-    greetName()    
-    greetName("Alice")
+      greetName()
+      greetName('Alice')
 
-    function add(a, b) {
-      return a + b
-    }
-    console.log(add(5, 3))
+      function add(a, b) {
+        return a + b
+      }
+      console.log(add(5, 3))
 
-    const add2 = (a, b) => a + b
-    console.log(add2(9, 12))
+      const add2 = (a, b) => a + b
+      console.log(add2(9, 12))
 
-    const add3 = (a, b) => {
-      let sum = a + b
-      return sum
-    }
-    console.log(add3(1, 2))
+      const add3 = (a, b) => {
+        let sum = a + b
+        return sum
+      }
+      console.log(add3(1, 2))
 
-    const square = n => n*n
-    console.log(square(6))
+      const square = n => n * n
+      console.log(square(6))
 
-    const nums = [1, 2, 3]
-    console.log(nums.map(n => n*n))
+      const nums = [1, 2, 3]
+      console.log(nums.map(n => n * n))
 
-    const multiply = function(x, y) {
-      return x * y
-    }
-    console.log(multiply(4, 2))
+      const multiply = function (x, y) {
+        return x * y
+      }
+      console.log(multiply(4, 2))
 
-    const area = (x, y) => x*y
-    console.log(area(10, 5))
+      const area = (x, y) => x * y
+      console.log(area(10, 5))
 
-    const obj = {}
-    obj.w = 5
-    obj.h = 10
-    obj.area = function() {
-      console.log(this)
-      
-      return this.w * this.h
-    }
-    console.log(obj.area())
+      const obj = {}
+      obj.w = 5
+      obj.h = 10
+      obj.area = function () {
+        console.log(this)
+
+        return this.w * this.h
+      }
+      console.log(obj.area())
     </script>
   </body>
 </html>

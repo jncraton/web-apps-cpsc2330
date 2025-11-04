@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title></title>
@@ -10,47 +10,47 @@
 
   <body>
     <script>
-    let colors = ['red', 'green', 'blue']
-    colors[2] = 'gray'
+      let colors = ['red', 'green', 'blue']
+      colors[2] = 'gray'
 
-    console.log("length", colors.length)
-    console.log(colors)
+      console.log('length', colors.length)
+      console.log(colors)
 
-    let foods = ['pizza', 'pie', 'cake']
-    foods[2] = 'cookie'
+      let foods = ['pizza', 'pie', 'cake']
+      foods[2] = 'cookie'
 
-    foods.push('cake')
-    foods.unshift('hot dog')
-    
-    console.log(foods)
+      foods.push('cake')
+      foods.unshift('hot dog')
 
-    console.log(foods.pop())
-    console.log(foods)
+      console.log(foods)
 
-    console.log(foods.shift())
-    console.log(foods)
+      console.log(foods.pop())
+      console.log(foods)
 
-    console.log(colors)
-    console.log(colors.indexOf('red'))
-    console.log(colors.indexOf('blue'))
-    console.log(colors.indexOf('green'))
+      console.log(foods.shift())
+      console.log(foods)
 
-    console.log(colors.includes('blue'))
+      console.log(colors)
+      console.log(colors.indexOf('red'))
+      console.log(colors.indexOf('blue'))
+      console.log(colors.indexOf('green'))
 
-    // for color in colors:
-    //     print(color)
-    for (let color of colors) {
-      console.log(color)
-    }
+      console.log(colors.includes('blue'))
 
-    // for (i, item) in enumerate(colors):
-    colors.forEach((color, i) => console.log(i, color))
-    colors.forEach(console.log)
+      // for color in colors:
+      //     print(color)
+      for (let color of colors) {
+        console.log(color)
+      }
 
-    for (let i=0; i<colors.length; i++) {
-      let color = colors[i]
-      console.log(i, color)
-    }
+      // for (i, item) in enumerate(colors):
+      colors.forEach((color, i) => console.log(i, color))
+      colors.forEach(console.log)
+
+      for (let i = 0; i < colors.length; i++) {
+        let color = colors[i]
+        console.log(i, color)
+      }
     </script>
   </body>
 </html>
