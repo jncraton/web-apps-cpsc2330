@@ -18,6 +18,7 @@
           console.log(response.ok, response.status)
           return response.blob()
         })
+        .catch(e => console.error("Error: ", e))
         .then(blob => blob.text())
         .then(text => {
           console.log(text)
