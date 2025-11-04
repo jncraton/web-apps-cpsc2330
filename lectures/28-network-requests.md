@@ -2,7 +2,7 @@
 reading: '[MDN: Network requests](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests)'
 ---
 
-# Web Data Access
+# Network requests
 
 ## Client/Server Interaction
 
