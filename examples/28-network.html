@@ -23,6 +23,15 @@
         console.log(text)
         document.querySelector('main').innerHTML = text
       })
+
+    async function load() {
+      const response = await fetch('hello.html')
+      console.log(response)
+      const text = await response.text()
+      console.log(text)
+    }
+
+    addEventListener('load', load)
     </script>
   </body>
 </html>
