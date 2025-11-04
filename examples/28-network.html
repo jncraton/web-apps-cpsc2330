@@ -33,6 +33,14 @@
       } catch (error) {
         console.error("ERROR: ", error)
       }
+
+      getFruits()
+    }
+
+    async function getFruits() {
+      const response = await fetch('api/fruits.json')
+      const json = await response.json()
+      console.log(json)
     }
 
     addEventListener('load', load)
