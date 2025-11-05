@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:;base64,=" />
 
     <title>JSON</title>
     <style></style>
@@ -10,8 +11,60 @@
 
   <body>
     <main>
+      <article>
+        <ul>
+        </ul>
+      </article>
     </main>
     <script>
+    const bookJSON = `
+    {
+      "title": "The Hobbit",
+      "pages": 300,
+      "year": 1937
+    }`
+
+    console.log(bookJSON)
+
+    const book = JSON.parse(bookJSON)
+    console.log(book)
+
+    const dog = {
+      name: "Fido",
+      bark: function () { console.log("Woof") },
+    }
+
+    dog.bark()
+
+    const dogJSON = JSON.stringify(dog)
+    console.log(dogJSON)
+    console.log(JSON.parse(dogJSON))
+
+    async function init() {
+      const res = await fetch('rolls')
+      const rolls = await res.json()
+      console.log(rolls)
+
+      rolls.forEach(roll => {
+        const li = document.createElement('li')
+        li.textContent = roll
+        document.querySelector('ul').appendChild(li)
+      })
+
+      const req = new Request('sum', {
+        method: "POST",
+        body: JSON.stringify(rolls),
+        headers: {
+          "content-type": "application/json",
+        }
+      })
+
+      const sumRes = await fetch(req)
+      const sum = await sumRes.json()
+      console.log(sum['sum'])
+    }
+
+    addEventListener('load', init)
     </script>
   </body>
 </html>
