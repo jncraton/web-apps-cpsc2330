@@ -8,16 +8,19 @@ app = Flask(__name__)
 
 import random
 
-@app.route('/')
-def root():
-    return open('29-json.html').read()
 
-@app.route('/rolls')
+@app.route("/")
+def root():
+    return open("29-json.html").read()
+
+
+@app.route("/rolls")
 def greet():
-    """ Returns 10 random dice rolls """
+    """Returns 10 random dice rolls"""
     return json.dumps([random.randint(1, 6) for _ in range(10)])
 
-@app.route('/sum', methods=['POST'])
+
+@app.route("/sum", methods=["POST"])
 def sum_array():
     data = request.get_json()
     if not isinstance(data, list):
@@ -29,5 +32,6 @@ def sum_array():
         total += item
     return json.dumps({"sum": total})
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(debug=True)
