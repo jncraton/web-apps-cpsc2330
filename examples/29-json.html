@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>JSON</title>
@@ -12,37 +12,36 @@
     <main>
       <article>
         <h2>Dice Rolls</h2>
-        <ul>
-        </ul>
+        <ul></ul>
       </article>
     </main>
     <script>
-    async function init() {
-      const res = await fetch("rolls")
-      const rolls = await res.json()
-      console.log(rolls)
+      async function init() {
+        const res = await fetch('rolls')
+        const rolls = await res.json()
+        console.log(rolls)
 
-      rolls.forEach(roll => {
+        rolls.forEach(roll => {
+          const li = document.createElement('li')
+          li.textContent = roll
+          document.querySelector('ul').appendChild(li)
+        })
+
+        const request = new Request('sum', {
+          method: 'POST',
+          body: JSON.stringify(rolls),
+          headers: new Headers({ 'content-type': 'application/json' }),
+        })
+
+        const sumRes = await fetch(request)
+        const total = await sumRes.json()
+
         const li = document.createElement('li')
-        li.textContent = roll
+        li.textContent = 'Total: ' + total.sum
         document.querySelector('ul').appendChild(li)
-      })
+      }
 
-      const request = new Request("sum", {
-        method: "POST",
-        body: JSON.stringify(rolls),
-        headers: new Headers({'content-type': 'application/json'}),
-      })
-
-      const sumRes = await fetch(request)
-      const total = await sumRes.json()
-
-      const li = document.createElement('li')
-      li.textContent = "Total: " + total.sum
-      document.querySelector('ul').appendChild(li)
-    }
-
-    addEventListener('load', init)
+      addEventListener('load', init)
     </script>
   </body>
 </html>
