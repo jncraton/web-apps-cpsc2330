@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Combinators</title>
-    <style></style>
+    <style>
+    :root {
+      margin: 0 auto;
+      max-width: 640px;
+      color: #222;
+      font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    }
+
+    main > article > section > p {
+      font-size: 20px;
+    }
+
+    h2 ~ p, div > p {
+      font-weight: 800;
+    }
+    </style>
   </head>
 
   <body>
+    <header>
+      <section>
+        <p>Header paragraph</p>
+      </section>
+    </header>
     <main>
       <article>
         <section>
           <h2>Section 1</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+            Lorem ipsum <span>dolor</span> sit amet consectetur adipiscing elit. Quisque
             faucibus ex sapievn vitae pellentesque sem placerat. In id cursus mi
             pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
             tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
@@ -67,5 +87,11 @@
         </section>
       </article>
     </main>
+    <div>
+      <p>Direct</p>
+      <span>
+        <p>Nested</p>
+      </span>
+    </div>
   </body>
 </html>
