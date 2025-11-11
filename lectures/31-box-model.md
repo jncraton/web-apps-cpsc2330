@@ -6,7 +6,7 @@ reading: '[MDN: Box Model](https://developer.mozilla.org/en-US/docs/Learn_web_de
 
 ## The Core Idea
 
-- Every single HTML element is conceptually treated as a rectangular box
+- HTML elements are conceptually treated as a rectangular box
 - This fundamental model defines exactly how elements take up space and relate to others
 
 ## Box Components
@@ -59,7 +59,7 @@ Why is understanding the margin and padding distinction crucial for building pro
 
 ## Margin Collapsing
 
-- Vertical margins between two block elements can sometimes collapse into a single space
+- Vertical margins between two block elements can [sometimes](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing) collapse into a single space
 - The resulting margin is the size of the *largest* of the two original margins, not the sum
 
 ## Exercise
@@ -117,10 +117,6 @@ What issues might arise if you try to apply a `width` or `height` property to a 
     box-sizing: border-box
   }
   ```
-
----
-
-If you set an element to have a `width` of `50%` and a `border-box` model, what part of the surrounding container does that `50%` measurement refer to?
 
 ## Exercise
 
