@@ -32,10 +32,6 @@ Draw a simple box and label the four parts of the CSS Box Model.
 - `width` and `height` then include padding and border
 - This makes layout calculations much easier 
 
----
-
-Why is `box-sizing: border-box` considered a best practice for modern CSS layouts?
-
 ## Min and Max Sizes
 
 - `min-width` and `max-width` set limits on the element's width
