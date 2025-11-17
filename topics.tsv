@@ -40,18 +40,8 @@ Lecture	Networking	https://developer.mozilla.org/en-US/docs/Learn_web_developmen
 Lecture	JSON	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
 Lecture	Combinators	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
 Lecture	Box Model	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
-Lecture	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
-Lecture	Values and Units	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
 Lecture	Sizing	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing
-Lecture	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-Lecture	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
-Lecture	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-Lecture	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-Lecture	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-Lecture	Lists and Link Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links
-Lecture	Web Fonts	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts
-Lecture	Layout	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction
-Lecture	Positioning	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning
+Lecture	Layout	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning
 Lecture	Flexbox	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
 Lecture	Grid	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
 Lecture	Responsive Design	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
@@ -59,6 +49,13 @@ Lecture	Media Queries	https://developer.mozilla.org/en-US/docs/Learn_web_develop
 Lecture	Flask	https://flask.palletsprojects.com/en/stable/quickstart/
 Lecture	Sqlite	https://docs.python.org/3/library/sqlite3.html
 Lecture	htmx and MVC	https://htmx.org/docs/
+Lecture	Cascading	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
+Lecture	Values and Units	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
+Lecture	Backgrounds and Borders	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
+Lecture	Overflow	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
+Lecture	Media Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
+Lecture	Table Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
+Lecture	Text Styles	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
 Presentations	Presentation 1-5
 Presentations	Presentation 6-10
 Presentations	Presentation 11-15
