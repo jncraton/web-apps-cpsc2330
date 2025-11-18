@@ -2,7 +2,7 @@
 reading: '[MDN: Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox)'
 ...
 
-# Mastering Flexible Layout
+# Flexbox
 
 ## Why Flexbox Matters
 
