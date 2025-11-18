@@ -2,7 +2,7 @@
 reading: '[MDN: Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction), [MDN: Positioning](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)'
 ...
 
-# Structuring Web Content
+# Positioning
 
 ## Understanding Normal Flow
 
