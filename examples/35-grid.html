@@ -10,19 +10,21 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-auto-flow: column;
-      
+      grid-template-areas:
+        "aside article"
+        "comments comments";
     }
 
     main aside {
-      grid-column-start: 1;
+      grid-area: aside;
     }
 
     main article {
-      grid-column-start: 2;
+      grid-area: article;
     }
 
     main section {
-      grid-column-start: 2;
+      grid-area: comments;
     }
     </style>
   </head>
