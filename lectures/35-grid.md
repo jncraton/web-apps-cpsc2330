@@ -119,8 +119,6 @@ If a grid container is 1000px wide, and you set `grid-template-columns: 100px 1f
 - The `align-items` property aligns content along the column axis within the cells
 - These are set on the grid container to apply to all children
 
-Considering the `grid-template-areas` syntax, what are the potential challenges of managing very large or complex grid layouts this way?
-
 ## Implicit Grid
 
 - The implicit grid forms when items are placed outside the explicitly defined tracks
