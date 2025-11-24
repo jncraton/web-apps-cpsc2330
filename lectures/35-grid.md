@@ -28,6 +28,10 @@ reading: '[MDN: Grid](https://developer.mozilla.org/en-US/docs/Learn_web_develop
 }
 ```
 
+---
+
+![Grid Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids/grid.png){height=400px}
+
 ## Tracks and Lines
 
 - A track is the space between two grid lines and defines a row or a column
