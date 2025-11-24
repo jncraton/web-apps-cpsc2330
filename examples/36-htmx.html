@@ -1,41 +1,30 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
     <title></title>
-    <style>
-    :root {
-      font-size:18px;
-      font-family: system-ui;
-    }
-
-    body {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
   </head>
 
   <body>
     <main>
-    <section>
-    <h2>Dice Roller</h2>
-    <button hx-get="/roll" hx-target="#roll-result">
-      Roll
-    </button>
-    <p>Roll Result: <span id="roll-result"></span></p>
-    </section>
+      <section>
+        <h2>Dice Roller</h2>
+        <button hx-get="/roll" hx-target="#roll-result">Roll</button>
+        <p>Roll Result: <span id="roll-result"></span></p>
+      </section>
 
-    <section>
-    <h2>Book Info</h2>
-    <form hx-get="/books" hx-target="#book-info">
-      <label>ISBN: <input name=isbn type=text value="9780007322602" /></label>
-      <input type=submit value=Submit />
-    </form>
+      <section>
+        <h2>Book Info</h2>
+        <form hx-get="/books" hx-target="#book-info">
+          <label>ISBN: <input name="isbn" type="text" value="9780007322602" /></label>
+          <input type="submit" value="Submit" />
+        </form>
 
-    <p id="book-info"></p>
-    </section>
+        <p id="book-info"></p>
+      </section>
+    </main>
   </body>
 </html>
