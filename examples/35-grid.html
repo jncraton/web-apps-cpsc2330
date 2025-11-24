@@ -6,14 +6,27 @@
 
     <title>Grid</title>
     <style>
+    :root {
+      font-size: 24px;
+    }
+
+    body {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 100px 1fr 3fr;
+    }
     </style>
   </head>
 
   <body>
     <main>
       <article>
-        <h2>Article
-        <p>Paragraph 1
+        <h2>Article</h2>
+        <p>A longer paragraph 1
         <p>Paragraph 2
       </article>
       <aside>
