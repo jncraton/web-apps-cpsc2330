@@ -125,10 +125,6 @@ If a grid container is 1000px wide, and you set `grid-template-columns: 100px 1f
 - The grid creates new tracks automatically to accommodate the misplaced items
 - You can control the size of these automatic tracks using `grid-auto-rows` or `grid-auto-columns`
 
----
-
-In what scenarios would you choose to use the implicit grid functionality rather than explicitly defining all your rows and columns?
-
 ## Exercise
 
 Using the `grid-template-areas` property, define a 2x2 grid where the top-left is `logo`, the top-right is `header`, the bottom-left is an `aside`, and the bottom-right is `content`.
