@@ -4,6 +4,7 @@ from html import escape
 import json
 import random
 from urllib.request import urlopen as get
+import sqlite3
 
 app = Flask(__name__)
 
@@ -36,6 +37,20 @@ def bookbook():
             <p>Year: {book['first_publish_year']}</p>
             <img src="http://covers.openlibrary.org/b/isbn/{isbn}-L.jpg" alt="Book cover">
         """
+
+
+@app.route("/pokemon")
+def pokemon():
+    conn = sqlite3.connect("pokemon.db")
+    conn.row_factory = sqlite3.Row
+
+    cursor = conn.cursor()
+
+    cursor.execute(f"SELECT * FROM pokemon")
+
+    rows = [dict(r) for r in cursor]
+
+    return rows
 
 
 if __name__ == "__main__":
