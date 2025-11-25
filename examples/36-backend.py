@@ -22,7 +22,7 @@ def roll():
     return str(random.randint(1, 6))
 
 
-@app.route("/books")
+@app.route("/book")
 def book():
     """Returns info about a book"""
 

@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
   </head>
 
-  <body hx-boost="true">
+  <body>
     <header>
     </header>
     <main>
+      <article>
+        <h2>Dice Roller</h2>
+        <button hx-get="/roll" hx-target="#roll-result">Roll</button>
+        <p>Roll result: <span id="roll-result"></span></p>
+      </article>
+      <article>
+        <section>
+          <h2>Book Info</h2>
+          <form hx-get="/book" hx-target="#book-results">
+            <input type="text" name="isbn" value="9789387779686" />
+            <input type="submit" value="Lookup book" />
+          </form>
+        </section>
+        <section id="book-results"></section>
+      </article>
     </main>
   </body>
 </html>
