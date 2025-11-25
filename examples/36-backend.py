@@ -18,18 +18,18 @@ def root():
 
 @app.route("/roll")
 def roll():
-    """Returns a random dice """
+    """Returns a random dice"""
     return str(random.randint(1, 6))
 
 
 @app.route("/books")
-def bookbook():
-    """Returns info about a book """
+def book():
+    """Returns info about a book"""
 
-    isbn = request.args['isbn']
-    
+    isbn = request.args["isbn"]
+
     with get(f"https://openlibrary.org/search.json?q=isbn:{isbn}") as res:
-        book = json.loads(res.read())['docs'][0]
+        book = json.loads(res.read())["docs"][0]
 
         return f"""
             <p>Title: {book['title']}</p>
